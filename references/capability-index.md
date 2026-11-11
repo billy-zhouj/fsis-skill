@@ -10,6 +10,7 @@
 | U.S. Rejected 封签谁贴谁摘；不卫生状态即违法 | capabilities/ssop-416.md（另见 fsis-verification） |
 | 写/审 FSIS HACCP；417.2 危害分析七类清单；CCP 偏离后产品处置；417.4 确认；发货前记录复核；417.7 培训职能 | capabilities/haccp-417.md |
 | HACCP 初始验证：两要素（科学支撑 Element 1 / 厂内验证数据 Element 2）、90 calendar days（法源 304.3 / 381.22）、关键操作参数 COP、验证记录 life of the plan、前提方案触发验证、初始验证 vs 持续验证 vs 再评估；FSIS-GD-2015-0011 五个附录 | capabilities/haccp-validation-2015.md |
+| HAV 任务怎么排、Table 1 十类优先序、Step 1–8 八步问答、NRLTO 与前提方案四问设计要素、科学支撑五类疑点、厂内验证数据 60/13 个生产日、原始数据 life of the HACCP system、再评估四情形、EIAO 介入后的 NR 与纠偏 | capabilities/hav-task-5000.6.md |
 | 417 vs 123 vs 117 Subpart C 差异速辨 | capabilities/haccp-417.md |
 | FSIS 检查员做什么；pre-op/operational SSOP 任务频率；PHIS；NR 记录；系统性问题趋势；执法阶梯/regulatory control/withholding/suspension/NOIE | capabilities/fsis-verification-5000.1.md |
 | 迎审准备；MOI；每周会议；generic E. coli 测试 | capabilities/fsis-verification-5000.1.md |
@@ -26,9 +27,10 @@
 | 本技能包有哪些文档、术语（IPP/PHIS/NR/MOI…） | references/overview.md |
 | 9 CFR 条文原文（304/310/317/327/381/412/416/417/418/424/500/531–537/557/590） | sources/ 对应文件；418=召回与24h通知、500=执法程序、304=官方资格申请、327=进口与等效国认定（**鲇形目等效列名的落点是 557.2（交叉引用 327.2 指定子款），不是 327.2 本身**）、381=禽类产品检验全套（eCFR 2026-11-09，211 条/25 分部） |
 | HACCP 初始验证合规指南全文（FSIS-GD-2015-0011，2015-04 最终版，21 节 + 5 附录 + 21 张工作表示例表） | sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md；能力卡 capabilities/haccp-validation-2015.md（指南无法律效力，法定义务挂 417.4 / 417.5 / 304.3 / 381.22） |
+| HAV 任务作业指令全文（FSIS Directive 5000.6 Rev.2，2018-06-29，20 页 / I–VIII 章 + 4 附件，含附件 1 八步问答表与附件 2 决策树） | sources/FSIS-Directive-5000.6-Rev2-2018.md；能力卡 capabilities/hav-task-5000.6.md（指令是内部作业脚本，不新增企业义务，法条锚点仍为 417.2 / 417.4 / 417.5 / 417.7） |
 | SPS 合规建议全文（Comments/Food Code/Other Sources） | sources/FSIS-SPS-Compliance-Guide-2016.md |
-| 5000.1 / 5000.4 / 5000.5 指令原文 | sources/ 对应文件 |
+| 5000.1 / 5000.4 / 5000.5 / 5000.6 指令原文 | sources/ 对应文件 |
 | 海关总署 230 号公告及附件原文（中国侧一手文件） | sources/GACC-Announcement-2019-No230.md、sources/GACC-Annex-Catfish-Requirements-2019.md |
 | 中国等效认定最终规则全案卷（84 FR 59678，2018 审计细节、Raw-Intact/Non-Intact 范围、557.2 修法文本） | sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md |
 
-**明确不覆盖**：9 CFR 312/314/316/320/539–541（未收录一手条文）、FDA 水产品 HACCP 细节（用 seafood-haccp 技能）、21 CFR 117 HARPC 细节（用 harpc 技能）、13000.1（PHIS 排程）、4791.1.1（LOTO 安全）、屠宰工艺工程参数。**注意：9 CFR 381 禽类全文已于 2026-11-11 收录**（sources/9-CFR-Part-381-Poultry-2026eCFR.md），禽类剖检/线速/标签/营养标签/进口等效走 capabilities/poultry-381.md。另 FSIS-GD-2015-0024《HACCP Validation》（2015-11 短文）、Directive 5000.6（HAV 任务）、Notice 32-17 / 78-15 全文未收录，指南卡内已标注。
+**明确不覆盖**：9 CFR 312/314/316/320/539–541（未收录一手条文）、FDA 水产品 HACCP 细节（用 seafood-haccp 技能）、21 CFR 117 HARPC 细节（用 harpc 技能）、13000.1（PHIS 排程）、4791.1.1（LOTO 安全）、屠宰工艺工程参数。**注意：9 CFR 381 禽类全文已于 2026-11-11 收录**（sources/9-CFR-Part-381-Poultry-2026eCFR.md），禽类剖检/线速/标签/营养标签/进口等效走 capabilities/poultry-381.md。另 FSIS-GD-2015-0024《HACCP Validation》（2015-11 短文）与 Notice 32-17 / 78-15 全文未收录，指南卡内已标注。**Directive 5000.6 Rev.2（HAV 任务）已于 2026-11-11 收录**（sources/FSIS-Directive-5000.6-Rev2-2018.md），走 capabilities/hav-task-5000.6.md。

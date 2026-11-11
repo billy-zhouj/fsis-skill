@@ -1,9 +1,9 @@
 ---
 name: fsis
-description: 来自 USDA FSIS 法规与指令（9 CFR 416/417/531–537 + FSIS Directive 5000.1 Rev.8 / 5000.4 Rev.3 / 5000.5 Rev.3）的肉禽与鲇形目食品安全方法论路由入口。当用户的问题涉及 SSOP 卫生体系、FSIS HACCP、驻厂检查（IPP）验证任务、不符合项与执法阶梯、开工前卫生检查选点、鲇形目（catfish/巴沙鱼/叉尾鮰）管辖判定、中国输美鲶鱼等效体系、FDA 与 USDA 双管辖厂体系搭建，但不明确指向某一个具体子任务时，用本入口按意图路由到对应能力卡。触发词：SSOP / 416 / 417 / FSIS / USDA / IPP / 驻厂检查 / U.S. Rejected 封签 / HACCP（FSIS 语境）/ 鲇形目 / 鲶鱼输美 / catfish / Siluriformes / 等效性 equivalence / 一厂两制 / 双管辖 / Rules of Practice / pre-op 卫生检查 / 低频卫生 LTD less than daily / 标签审批 labeling / 通用批准 generic label / 标签送审 / 配料准入 / 海关总署 230 号公告 / 输美备案推荐注册 / 屠宰检验剖检 post-mortem / 线速 line speed / U.S. Retained / SRM 疯牛病 / E. coli 检测 / 禽类 poultry / NPIS 线速 / 9 CFR 381 / 禽类营养标签 381.400 / ratites 走禽 / 含禽配料豁免 / 蛋制品 egg products / 蛋液蛋粉输美 / restricted eggs / HACCP 初始验证 initial validation / 科学支撑 scientific support / 关键操作参数 COP / 90 天 / 厂内验证数据 in-plant validation data / 前提方案验证 prerequisite program / FSIS-GD-2015-0011。
+description: 来自 USDA FSIS 法规与指令（9 CFR 416/417/531–537 + FSIS Directive 5000.1 Rev.8 / 5000.4 Rev.3 / 5000.5 Rev.3）的肉禽与鲇形目食品安全方法论路由入口。当用户的问题涉及 SSOP 卫生体系、FSIS HACCP、驻厂检查（IPP）验证任务、不符合项与执法阶梯、开工前卫生检查选点、鲇形目（catfish/巴沙鱼/叉尾鮰）管辖判定、中国输美鲶鱼等效体系、FDA 与 USDA 双管辖厂体系搭建，但不明确指向某一个具体子任务时，用本入口按意图路由到对应能力卡。触发词：SSOP / 416 / 417 / FSIS / USDA / IPP / 驻厂检查 / U.S. Rejected 封签 / HACCP（FSIS 语境）/ 鲇形目 / 鲶鱼输美 / catfish / Siluriformes / 等效性 equivalence / 一厂两制 / 双管辖 / Rules of Practice / pre-op 卫生检查 / 低频卫生 LTD less than daily / 标签审批 labeling / 通用批准 generic label / 标签送审 / 配料准入 / 海关总署 230 号公告 / 输美备案推荐注册 / 屠宰检验剖检 post-mortem / 线速 line speed / U.S. Retained / SRM 疯牛病 / E. coli 检测 / 禽类 poultry / NPIS 线速 / 9 CFR 381 / 禽类营养标签 381.400 / ratites 走禽 / 含禽配料豁免 / 蛋制品 egg products / 蛋液蛋粉输美 / restricted eggs / HACCP 初始验证 initial validation / 科学支撑 scientific support / 关键操作参数 COP / 90 天 / 厂内验证数据 in-plant validation data / 前提方案验证 prerequisite program / FSIS-GD-2015-0011 / HAV 危害分析验证 / Hazard Analysis Verification / 5000.6 / NRLTO 支撑不足 / 前提方案要不要留记录 / 60 个生产日 / 13 个生产日 / life of the HACCP system / EIAO。
 metadata:
   cangjie.bundle-id: usda-fsis-regulatory
-  cangjie.source: 9 CFR 416/417/531-537 (eCFR 2026-10-29) + FSIS Directive 5000.1 Rev.8 (2025-01-10) + 5000.4 Rev.3 (2021-10-14) + FR 2019-24055 + FSIS China FY23 audit + 9 CFR 557 & 21 CFR 117/123（源缺口补齐 2026-11-03） + 9 CFR 381（eCFR 2026-11-09，2026-11-11 补齐禽类缺口） + FSIS Compliance Guideline HACCP Systems Validation（FSIS-GD-2015-0011，2015-04，2026-11-11 补档）
+  cangjie.source: 9 CFR 416/417/531-537 (eCFR 2026-10-29) + FSIS Directive 5000.1 Rev.8 (2025-01-10) + 5000.4 Rev.3 (2021-10-14) + FR 2019-24055 + FSIS China FY23 audit + 9 CFR 557 & 21 CFR 117/123（源缺口补齐 2026-11-03） + 9 CFR 381（eCFR 2026-11-09，2026-11-11 补齐禽类缺口） + FSIS Compliance Guideline HACCP Systems Validation（FSIS-GD-2015-0011，2015-04，2026-11-11 补档） + FSIS Directive 5000.6 Rev.2（HAV 任务，2018-06-29，2026-11-11 补档）
   restored-from: 本会话转换与核实（2026-11-02 用户上传 PDF 蒸馏建包）
 ---
 
@@ -35,6 +35,7 @@ metadata:
 | 编写/审查 SSOP；416 体系五件套义务；记录保存期限；纠偏怎么写；低于每日频率的卫生程序；水源/化学品/虫害等底线条款 | references/capabilities/ssop-416.md | 条文细节查 sources/9-CFR-Part-416-2026eCFR.md |
 | 设计/审查 FSIS HACCP 计划；危害分析清单；CCP 偏离处置；确认 validation；发货前记录复核；培训职能；417 vs FDA 三兄弟差异 | references/capabilities/haccp-417.md | 条文细节查 sources/9-CFR-Part-417-2026eCFR.md |
 | HACCP 初始验证：两要素（科学支撑 / 厂内验证数据）、90 calendar days、关键操作参数 COP、验证记录留存 life of the plan、前提方案是否需验证、初始验证 vs 持续验证 vs 再评估 | references/capabilities/haccp-validation-2015.md | 指南原文查 sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md（无法律效力）；与 haccp-417（法条框架）、fsis-verification-5000.1（IPP 验证）对偶 |
+| HAV 危害分析验证任务：季度排程、Table 1 十类 HACCP 类别优先序、90 天后选样、Step 1–8 作业流程、NRLTO 判定与前提方案四问、验证合规评估（科学支撑五类疑点 / 厂内数据 60·13 生产日）、再评估条件、NR 与 EIAO 升级 | references/capabilities/hav-task-5000.6.md | 原文查 sources/FSIS-Directive-5000.6-Rev2-2018.md（Rev.2 2018-06-29，现行）；企业侧举证看 haccp-validation-2015，NR 与执法看 fsis-verification-5000.1 |
 | FSIS 检查员日常验证怎么做；迎审准备；NR 记录与系统性问题；执法阶梯（贴签→拒标志→停业→NOIE）；E. coli 测试 | references/capabilities/fsis-verification-5000.1.md | 原文查 sources/FSIS-Directive-5000.1-Rev8-2025.md |
 | 开工前检查选点逻辑；高风险设备六特征；organoleptically clean；LOTO；MOI 时间约定 | references/capabilities/preop-ssop-5000.4.md | 原文查 sources/FSIS-Directive-5000.4-Rev3-2021.md（2026-11-02 已换干净版） |
 | 加工企业能不能隔几天大扫除；LTD 低频卫生；屠宰禁 LTD；LTD 验证逻辑与等效举证；APC/基线/SPC 证明卫生有效 | references/capabilities/ltd-sanitation-5000.5.md | 原文查 sources/FSIS-Directive-5000.5-Rev3-2021.md |
@@ -67,6 +68,7 @@ metadata:
 | Directive 5000.1 Rev.8 | 六章验证体系全图 | fsis-verification-5000.1 |
 | Directive 5000.4 Rev.3 | pre-op 选点法 | preop-ssop-5000.4 |
 | Directive 5000.5 Rev.3 | LTD 低频卫生验证 | ltd-sanitation-5000.5 |
+| Directive 5000.6 Rev.2 | HAV 危害分析验证任务（八步流程、优先序、验证合规评估） | hav-task-5000.6 |
 | 9 CFR 412 / 317 / 424 | 标签审批与配料准入 | labeling-412-424-317 |
 | 9 CFR 310 | 屠宰后检验与微生物性能标准 | postmortem-310 |
 | 9 CFR 381 | 禽类产品检验全套（PPIA，211 条/25 分部） | poultry-381 |
@@ -86,7 +88,7 @@ metadata:
 ## 边界与判停
 
 - 用户要条文原文时：优先引用能力卡内置要点，需要长上下文查 sources/ 对应文件，不要凭记忆背条款。
-- 指令（5000.1/5000.4）是给 FSIS 员工的作业指令，不直接给企业设义务——企业义务在 416/417 条文本身；引用时注意这个层次。
+- 指令（5000.1/5000.4/5000.5/5000.6）是给 FSIS 员工的作业指令，不直接给企业设义务——企业义务在 416/417 条文本身；引用时注意这个层次。
 - 等效资格、认证企业清单、产品范围动态变化——涉及"现在还能不能出口"类判断，提醒回 FSIS 官网核对最新状态。
 - 涉及具体企业放行决策时，提醒最终判定须由 417.7 培训合格人员/PCQI 作出，本技能是辅助方法论不是授权签字人。
 - 合规指南（如 FSIS-GD-2015-0011）**无法律效力**，不得写成法定义务；引用时须挂 §417.4 / §417.5 等法定锚点，并注明这是 FSIS 对条款的适用说明。
@@ -127,3 +129,5 @@ curl -sL --compressed "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/tit
 - **90 天不在 §417.4 条文里**：90 calendar days 的法源是 **§304.3(b)(c)（畜）与 §381.22(b)(c)（禽）** 的 conditional grant / 新产品验证期限；§417.4(a)(1) 只写 "validation period" 与反复测试。指南（FSIS-GD-2015-0011）把两者串起来，写「417.4 规定 90 天」不精确。
 - **验证支撑文档留存 life of the plan，不是 1 年 / 2 年**：Element 1 科学支撑与 Element 2 厂内数据属 §417.5(a)(1)(2) 的危害分析与计划支撑文档，须留存计划的整个生命周期；§417.5(e) 的 1 年（屠宰/冷藏）、2 年（冷冻/耐储）是**日常运行记录**的另一套期限。
 - **初始确认 / 持续验证 / 再评估不能混**：initial validation（≤90 天，证明设计与执行）、ongoing verification（§417.4(a)(2)，每日按计划频率）、reassessment（§417.4(a)(3)，至少年度 + 变更时）。FSIS 中文译本把 validation 与 verification 都译「验证」，引用时务必用英文锚定；另微生物厂内数据 FSIS 鼓励但不强制。
+- **Table 1 的十类 HAV 排程类别 ≠ §417.2(b)(1) 的九类法定加工类别**：5000.6 Table 1 把「Fully cooked—not shelf stable」按 post-lethality exposed / not exposed 拆成第 4 与第 9 两类，故成十类；Raw 侧用 non-intact / intact 而非 ground / not ground。写计划或整改报告时勿混用两套类别名。
+- **「90 天验证期 ≈ 60 个生产日（大型）/ 最低 13 个生产日（小型与微型）」是 5000.6 的验证口径，不是 §417.4 条文**；且厂内验证数据须留存**原始记录**贯穿 HACCP system 整个生命周期（life of the HACCP system），只留汇总表即踩 5000.6 Step 6.G。原文 Step 8.D 有两个「2.」编号，是该指令自身的笔误，非转换错误。

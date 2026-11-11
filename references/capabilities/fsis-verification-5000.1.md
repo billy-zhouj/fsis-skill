@@ -31,7 +31,7 @@
 - 验证重点在**体系整体有效性**，而非逐件产品感官检验——感官检验本身不足以识别所有不安全产品。【来源：Directive 5000.1 第 1429–1434 行】
 
 **2. HACCP 验证任务（Chapter III）**
-- 两类任务：① **HAV（Hazard Analysis Verification，FSIS Directive 5000.6）**——审查企业所有 HACCP 加工类别的危害分析；② **HACCP Verification**——用记录复核 + 现场审查/观察验证企业有效实施其 HACCP 体系（监控、验证、记录、所有 CCP 纠偏）。【来源：Directive 5000.1 第 1506–1513 行】
+- 两类任务：① **HAV（Hazard Analysis Verification，FSIS Directive 5000.6）**——审查企业所有 HACCP 加工类别的危害分析；② **HACCP Verification**——用记录复核 + 现场审查/观察验证企业有效实施其 HACCP 体系（监控、验证、记录、所有 CCP 纠偏）。【来源：Directive 5000.1 第 1506–1513 行】HAV 的作业细节（季度排程、Table 1 十类优先序、Step 1–8、NRLTO 与前提方案验证、60/13 个生产日、life of the HACCP system）见 capabilities/hav-task-5000.6.md，原文 sources/FSIS-Directive-5000.6-Rev2-2018.md。
 - 每个任务含两个组分：**记录复核（recordkeeping）**与**审查及观察（review and observation）**；IPP 可只用其一或组合。【来源：Directive 5000.1 第 1486–1503 行】
 - 例行任务按 PHIS 任务清单中登记的 HACCP 加工类别出现；当观察到不符合或主管指示时，IPP 可发起**directed（指令性）**任务；PHIS 也会在阳性病原结果或不符合趋势时自动加派 directed 任务。【来源：Directive 5000.1 第 1475–1479、1572–1581 行】
 - RLTO=0 的企业可不制定 HACCP 计划，但 IPP 仍须执行 HAV 验证基本危害分析、前提方案、支撑文档与发货前复核（§417.2(a)(1)、417.5(a)(1)、417.5(c)）。【来源：Directive 5000.1 第 1520–1526 行】
