@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 25 份 sources）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 29 份 sources / 16 张 capabilities）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -104,3 +104,17 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **企业义务未变**：指令是 IPP 作业脚本，法条锚点仍是 §417.2(a)(1)(2)、§417.2(b)(1)、§417.2(c)(2)、§417.3(b)(4)、§417.4(a)(1)(3)、§417.4(b)、§417.5(a)(1)(2)、§417.7。
 - **校验**：与 PDF 原文长句全量对撞 **219/220 命中**；唯一未命中是附件 2 流程图页（文本层为方框散字，已按版面坐标重建为决策树并保留坐标锚点）。附件 1 跨页四列表格按单元格矩形重拼（`extract()` 会把 `417.2(a)(2)` 断成 `417 2(a)(2)`，故改用按矩形取词）。
 - **已知缺口**：附件 2 箭头走向无法从文本层恢复；配套问答文件《Questions and Answers Related to Performance of the HAV Task》（2012-08-14）与 Directive 5020.1 全文未收。
+
+## 0i. 2026-11-11 第四批补档：HACCP 计划编写指南 / SSOP 模板 / 两份通用模型
+
+用户一次上传 4 份 FSIS 官方指南与通用模型 PDF，全部按词坐标高保真重建为 sources，并新增 3 张能力卡（`haccp-plan-guidebook`、`haccp-generic-models`、`ssop-model-2020`）。这批补齐的是**「怎么写」的模板层**——此前本包只有法条框架（417/416）与检查员脚本（5000.1/5000.6），企业侧「一份 HACCP 计划、一套 SSOP 具体长什么样」是空白。
+
+- **FSIS-GD-2020-0008《Guidebook for the Preparation of HACCP Plans》（2020-10，52 页）**：`sources/FSIS-GD-2020-0008-Guidebook-HACCP-Plans.md`。34 个书签章节、8 张附件工作表。预备五步 + HACCP 七原则 + Attachment 1–8。两个一手澄清：**① 鲇形目不归入 §417.2(b)(1)(i) Slaughter 类**（典型鱼类「屠宰+加工」是连续自动化流程，更像加工类作业）；**② 法条原文写的是 "Raw product—ground / not ground"，指南改写为 non-intact / intact**（64 FR No.11, 1999-01-19；为纳入机械嫩化与真空滚揉）——与 5000.6 Table 1 的十类构成三套并存的类别命名。
+- **FSIS-GD-2020-0009《A Sanitation Standard Operating Procedure Model》（2020-10，16 页）**：`sources/FSIS-GD-2020-0009-Sanitation-SOP-Model.md`。附件 1 为虚构 XYZ Meat Packers 完整 SSOP 模板 + 4 张样表，附件 2 附 9 CFR 416.12–416.17 条文原文（1999 年文本，现行条文仍回 eCFR 416 源）。固化纠偏三要素与**唯一常见例外**（已有有效产品再调理程序时不必逐次记录）、48 小时/24 小时/6 个月记录期、§416.15(a) 的 "may have failed" 触发门槛、SSOP 变更无需通知 FSIS。
+- **FSIS-GD-2020-0013《HACCP Model for Poultry Slaughter》（2020-11，19 页）**与 **FSIS-GD-2022-0006《HACCP Model for Raw Intact Farm-raised Catfish Products》（2022-08，14 页）**：分别为 `sources/FSIS-GD-2020-0013-HACCP-Model-Poultry-Slaughter.md`、`sources/FSIS-GD-2022-0006-HACCP-Model-Raw-Intact-Farm-raised-Catfish.md`。两份模型形成极佳对照：**鲶鱼把所有生物/化学危害判 NRLTO=No、只留 1 个 CCP（金属探测，CL=可见金属碎片）**；**禽类把 Salmonella/Campylobacter 判 RLTO=Yes、设 3 个 CCP**（零粪便入冷却槽 / 600–700 ppm 有机酸 / 胴体 45 °F·6 h 与部位 44 °F·4 h）。CCP 数量差异不是宽严之别，而是危害分析结论不同的必然结果。
+- **法源辨析新收获**：①「可见粪便不得进入冷却槽」是 **§381.65(f)**，§381.65(g) 是全程防污染书面程序 + 微生物采样，两者常被混引；② 禽模型 **45 °F/6 h 出自 SIP（Salmonella Initiative Program）替代程序的 "safe harbor"**，不是 §381.66 条文直接写定的数值；③ **FSIS Directive 7120.1 准用表只能支撑化学危害（安全性/适用性），不能证明对生物危害的控制**（控制细菌所需抗菌浓度不同）；④ 禽模型适用 SIS/NELS/NTIS/Traditional，**不含 NPIS**——NPIS 另有 FSIS-GD-2020-0012。
+- **版本核验**：2026-11-11 查 FSIS guidance portal 与 Small & Very Small Plant Guidance 列表，四份编号与日期分别为 GD-2020-0008（Oct 2020）、GD-2020-0009（Oct 2020）、GD-2020-0013（Nov 2020）、GD-2022-0006（Aug 2022），均为现行；旧版页面曾把前两份标为 Sep 2020，以 guidance portal 为准。Guidebook 与 SSOP Model 均有 USDA 官方中文译本，本包未并入。
+- **法律效力边界**：四份全部带 `guidance documents lack the force and effect of law` 免责声明，且通用模型另声明 "for demonstration purposes only / does not represent requirements that must be met"；模板、工作表、示例 CCP 与关键限值**不得写成法定义务或照抄**。法条锚点始终是 9 CFR 416 / 417 / 381。
+- **转换与校验**：PyMuPDF 按文本块/词坐标重建，表格按版面 y 行保序 + 矢量网格列边界切 GFM；catfish 的表格框线在文本层是 4.2–4.9pt 装饰字（正文最小 6.4pt），按字号精准剔除，并修正了「长虚线 span 的 bbox 横跨整行会误删同行正文」的缺陷。**四份合计 1965/1965 原文长句全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准，前三份零丢失、Guidebook 仅差 4 个封面装饰词。
+- **已知限制**：流程图页（catfish p.4 / poultry p.4 / Guidebook p.16、p.29）为矢量方框，文本层仅存散字，箭头走向不可恢复；跨页危害分析表按版面 y 行展开，未按逻辑行合并；poultry p.19 表头含源文档自带的 `Error! Bookmark not defined.`（Word 域错误），按原文保留。
+- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、Directive 7120.1 全文、Poultry Chilling Requirements 合规指南、FSIS-GD-2021-0005/0006 均未收；详见 capability-index 末尾清单。
