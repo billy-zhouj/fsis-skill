@@ -15,7 +15,7 @@ FSIS 对**肉、禽、鲇形目（Siluriformes）官方企业（official establi
 ### 语言信号（用户的话里出现这些就应激活）
 - “HACCP 计划怎么写”、“关键限值（critical limit）”、“CCP”、“危害分析 RLTO”、“HACCP 验证”。
 ### 与相邻能力卡的区分
-- 与 ssop-416（卫生体系）并列；与 fsis-verification-5000.1 是“企业建”vs“检查员验”；与 siluriformes-china 交叉（鲇形目双轨）。
+- 与 ssop-416（卫生体系）并列；与 fsis-verification-5000.1 是“企业建”vs“检查员验”；与 haccp-validation-2015 是「417 法条框架」vs「§417.4(a)(1) 初始验证的可执行细化（指南层）」；与 siluriformes-china 交叉（鲇形目双轨）。
 
 ## 二、法定依据（逐条）
 
@@ -36,9 +36,12 @@ FSIS 对**肉、禽、鲇形目（Siluriformes）官方企业（official establi
 - 计划未覆盖的偏差或新危害：隔离留置受影响产品 → 由 §417.7 培训合格人员评估 → 证明无掺假方可放行（§417.3(b)）。全部纠偏须记录留档（§417.3(c)）。
 
 **4. 确认/验证/再评估（§417.4）**
+
 - 初始确认（validation）：完成后反复测试 CCP、关键限值、监控与记录、纠偏是否如预期运作（§417.4(a)(1)）。
 - 持续验证（verification）：仪器校准、直接观察监控与纠偏、复核 §417.5(a)(3) 记录（§417.4(a)(2)）。
 - 再评估（reassessment）：至少每年一次，且任何可能改变危害分析或计划的变更发生时立即进行；由 §417.7 培训合格人员执行，发现不符合须立即修改计划（§417.4(a)(3)）。
+
+> **初始验证的实操细化见 capabilities/haccp-validation-2015.md**：两要素（科学/技术支撑 + 厂内验证数据）、90 calendar days（法源 §304.3(b)(c) / §381.22(b)(c)，**不是 417.4 条文文字**）、验证支撑文档按 §417.5(a)(1)(2) 留存 life of the plan。
 
 **5. 记录（§417.5）**
 - 实时记录（事件发生时，含日期时间+签署）；发货前须复核记录完整性，可行时由**未生产该记录的人**（最好 §417.7 培训合格者或责任官员）签署（§417.5(b)(c)）。
@@ -91,4 +94,4 @@ FSIS 对**肉、禽、鲇形目（Siluriformes）官方企业（official establi
 ## 审计信息
 - **质量核验**：事实回源通过：§417.2(c)(3) 关键限值为防偏离线、§417.4(a)(1) 验证反复测试、§417.5(c) 发货前复核禁自审自签均正确；包内缺 117 侧源处已用【待核实】诚实标注；§537.2 归属 Part 537 正确。（2026-11-04 逐卡 F1 事实回源，抽样命中源文件）
 - **蒸馏时间**：2026-11-03
-- **源文档**：`sources/9-CFR-Part-417-2026eCFR.md`、`sources/9-CFR-Part-500-Enforcement-2026eCFR.md`、`sources/FSIS-Directive-5000.1-Rev8-2025.md`
+- **源文档**：`sources/9-CFR-Part-417-2026eCFR.md`、`sources/9-CFR-Part-500-Enforcement-2026eCFR.md`、`sources/FSIS-Directive-5000.1-Rev8-2025.md`、`sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md`（2026-11-11 补，指南层）

@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 23 份 sources）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 24 份 sources）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -87,3 +87,11 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - 分部谱系：A 定义 / B 管理 / C 豁免（381.10、381.15 <2% 熟禽肉）/ D 检验申请 / E 企业编号与分隔（381.26）/ F 检查员权限 / G 设施与加班 / H 工作相关状况声明 / I 操作规程（381.66 冷却、381.67–381.69 线速）/ J 宰前 / K 宰后（381.76 六种系统、381.94 ratites E. coli）/ L 不可食处置 / M 官方标记与出口证书 / N 标签 / O 进料与加工检验 / P 成分标准 / Q 记录注册报告 / R 州合作 / S 运输出口 / T 进口（381.196 等效、381.205 标签）/ U 扣留没收 / V 指定州 / X [Reserved] / Y 营养标签（381.400–381.500）/ Z 州际运输合作计划。
 - **与畜类 310 的关键不对称**：381 正文 Salmonella 仅 2 处、Campylobacter 0 处，无 310.25 式沙门氏菌性能标准；§381.94 的强制 E. coli 只针对 ratites 屠宰企业。NPIS 线速上限 140 bpm（幼鸡）/ 55 bpm（火鸡）出自 §381.69，非全品类通用。
 - **校验**：与用户 PDF 对撞——PDF 条款号 226 个 ⊇ 源 211 条（差 15 个均为 [Reserved] 区间），正文抽样 24/25 命中；详见 capabilities/poultry-381.md 审计信息。
+
+## 0g. 2026-11-11 HACCP 初始验证指南补档（FSIS-GD-2015-0011）
+
+- 用户提供 68 页 PDF《FSIS. FSIS Compliance Guideline HACCP Systems Validation.pdf》，按文本块重建为 `sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md`（21 个书签章节 / 21 张 GFM 表格 / 正文 505 行），并新建能力卡 `capabilities/haccp-validation-2015.md`。
+- 指南为 **FSIS-GD-2015-0011（2015-04 最终版）**，2026-11-11 核验 FSIS guidance portal 仍在列；**guidance documents lack the force and effect of law**，USDA 不得引用未在门户公开的指南（除确立历史事实）。另有 FSIS-GD-2015-0024《HACCP Validation》（2015-11）同主题短文，互补非替代，本包未收其全文。
+- 补齐 `haccp-417` 此前只有一句 §417.4(a)(1) 的空白：**两要素**（Element 1 科学/技术支撑 + Element 2 厂内验证数据）、**90 calendar days**、**验证支撑文档留存 life of the plan**、**前提方案被用作危害分析依据时须验证**、初始验证/持续验证/再评估三分，以及 Appendix 1–5 的暴发案例、决策文档、文献读法、21 张工作表、缺失数据补救。
+- **法源辨析**：90 天出自 **§304.3(b)(c)（畜）/ §381.22(b)(c)（禽）** 的条件授予检验与新产品验证期限，§417.4(a)(1) 条文文字只写 "validation period" 与反复测试；验证记录期由 §417.5(a)(1)(2) 推出，与 §417.5(e) 的 1 年 / 2 年日常记录期不同。
+- **校验**：与 PDF 原文长句全量对撞 **458/458 命中**（目录页、逐页免责声明、"For Illustration Purposes Only" 页标按设计剔除）；frontmatter 记录版本、中文译本与相关指南链接。Appendix 5 的 2016-01-04 / 2016-04-04 为已过期的 2015 过渡宽限期，卡内明确标注不得当现行期限。
