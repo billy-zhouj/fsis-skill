@@ -8,7 +8,7 @@ archived: 2026-11-11 用户上传 19 页 PDF 按文本块/词坐标重建；无�
 status: 2026-11-11 核验 FSIS guidance portal：FSIS-GD-2020-0013，Issue Date November 2020，现行
 note: 通用模型仅作示范（for demonstration purposes only），不设新义务、不代表必须满足的要求；企业须按本厂设施、生产实践与产品定制。脚注 2 明示本模型适用 SIS / NELS / NTIS / Traditional 四种禽类检验系统，**不含 NPIS**——NPIS 屠宰另有 FSIS-GD-2020-0012（2020-10），勿混用
 covers: 产品描述与配料/进料清单；18 步工艺流程图；逐步骤危害分析（Salmonella、Campylobacter 判 RLTO=Yes；药物残留、异物等判 No）；三个 CCP：CCP 1 胴体/部位/内脏粪便污染监控（零粪便进入冷却系统）、CCP 2 预冷抗菌剂应用（600–700 ppm 有机酸）、CCP 3 全部产品冷却（胴体 45 °F 以内 6 小时；部位/内脏/颈/爪 44 °F 以内 4 小时）；监控「10 胴体 + 10 部位/内脏」抽样与不足 10 单位时全检；417.3(a) 纠偏四步；417.4(a)(2)(iii) 记录复核；表单清单
-related: 与 FSIS-GD-2020-0012（NPIS Poultry Slaughter, 2020-10）为两份不同模型；关键限值 45 °F/6 h 的 "safe harbor" 出处为《FSIS Compliance Guide: Modernization of Poultry Slaughter Inspection: Chilling Requirements》与 SIP（Salmonella Initiative Program），非 9 CFR 381.66 直接规定的数值
+related: 与 FSIS-GD-2020-0012（NPIS Poultry Slaughter, 2020-10）为两份不同模型；关键限值 45 °F/6 h 依本模型脚注 32 自述源自 SIP（Salmonella Initiative Program）参与企业的替代程序，并援引《FSIS Compliance Guide: Modernization of Poultry Slaughter Inspection: Chilling Requirements》（FSIS-GD-2014-0014，英文原版全文见 sources/FSIS-GD-2014-0014-Chilling-Requirements-Compliance-Guide.md），非 9 CFR 381.66 直接规定的数值。**注意：该指南 p.6 列举的四条 SIP 示例为 44 °F/6 h、45 °F/16 h、≤44 °F 恒定、44 °F/4 h，并不含 45 °F/6 h**（示例非穷尽，指南中 45 °F 对应 16 h），辨析见 capabilities/chilling-requirements-2014.md
 audit: 2026-11-11 与 PDF 原文长句全量对撞 332/332 命中、同口径词袋零丢失、原始全文实词零丢失
 known_limits: PDF p.19 表头含源文档自带的 "Error! Bookmark not defined."（Word 域错误），按原文保留；复杂 HACCP plan 表的合并单元格按版面 y 行展开，未按逻辑行合并；引用了当时仍为 DRAFT 的《FSIS Compliance Guideline for Controlling Salmonella and Campylobacter in Raw Poultry》，引用前须核对现行版（FSIS-GD-2021-0005/0006）
 ---

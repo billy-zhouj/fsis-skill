@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 30 份 sources / 17 张 capabilities）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-11 共 31 份 sources / 18 张 capabilities）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -112,12 +112,12 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **FSIS-GD-2020-0008《Guidebook for the Preparation of HACCP Plans》（2020-10，52 页）**：`sources/FSIS-GD-2020-0008-Guidebook-HACCP-Plans.md`。34 个书签章节、8 张附件工作表。预备五步 + HACCP 七原则 + Attachment 1–8。两个一手澄清：**① 鲇形目不归入 §417.2(b)(1)(i) Slaughter 类**（典型鱼类「屠宰+加工」是连续自动化流程，更像加工类作业）；**② 法条原文写的是 "Raw product—ground / not ground"，指南改写为 non-intact / intact**（64 FR No.11, 1999-01-19；为纳入机械嫩化与真空滚揉）——与 5000.6 Table 1 的十类构成三套并存的类别命名。
 - **FSIS-GD-2020-0009《A Sanitation Standard Operating Procedure Model》（2020-10，16 页）**：`sources/FSIS-GD-2020-0009-Sanitation-SOP-Model.md`。附件 1 为虚构 XYZ Meat Packers 完整 SSOP 模板 + 4 张样表，附件 2 附 9 CFR 416.12–416.17 条文原文（1999 年文本，现行条文仍回 eCFR 416 源）。固化纠偏三要素与**唯一常见例外**（已有有效产品再调理程序时不必逐次记录）、48 小时/24 小时/6 个月记录期、§416.15(a) 的 "may have failed" 触发门槛、SSOP 变更无需通知 FSIS。
 - **FSIS-GD-2020-0013《HACCP Model for Poultry Slaughter》（2020-11，19 页）**与 **FSIS-GD-2022-0006《HACCP Model for Raw Intact Farm-raised Catfish Products》（2022-08，14 页）**：分别为 `sources/FSIS-GD-2020-0013-HACCP-Model-Poultry-Slaughter.md`、`sources/FSIS-GD-2022-0006-HACCP-Model-Raw-Intact-Farm-raised-Catfish.md`。两份模型形成极佳对照：**鲶鱼把所有生物/化学危害判 NRLTO=No、只留 1 个 CCP（金属探测，CL=可见金属碎片）**；**禽类把 Salmonella/Campylobacter 判 RLTO=Yes、设 3 个 CCP**（零粪便入冷却槽 / 600–700 ppm 有机酸 / 胴体 45 °F·6 h 与部位 44 °F·4 h）。CCP 数量差异不是宽严之别，而是危害分析结论不同的必然结果。
-- **法源辨析新收获**：①「可见粪便不得进入冷却槽」是 **§381.65(f)**，§381.65(g) 是全程防污染书面程序 + 微生物采样，两者常被混引；② 禽模型 **45 °F/6 h 出自 SIP 替代程序的 "safe harbor"**，不是 §381.66 条文直接写定的数值（后续 0j 补档查明：该 safe harbor 实际有「被删旧时间温度表」与「SIP 批准程序」两条路径，**不只指 SIP**）；③ **FSIS Directive 7120.1 准用表只能支撑化学危害（安全性/适用性），不能证明对生物危害的控制**（控制细菌所需抗菌浓度不同）；④ 禽模型适用 SIS/NELS/NTIS/Traditional，**不含 NPIS**——NPIS 另有 FSIS-GD-2020-0012。
+- **法源辨析新收获**：①「可见粪便不得进入冷却槽」是 **§381.65(f)**，§381.65(g) 是全程防污染书面程序 + 微生物采样，两者常被混引；② 禽模型 **45 °F/6 h 出自 SIP 替代程序的 "safe harbor"**，不是 §381.66 条文直接写定的数值（后续 0j 补档查明：该 safe harbor 实际有「被删旧时间温度表」与「SIP 批准程序」两条路径，**不只指 SIP**；0k 补档取得指南英文原版全文后进一步查明：p.6 四条 SIP 示例并不含 45 °F/6 h，该数值依模型脚注 32 自述源自 SIP 程序、但不在示例清单内）；③ **FSIS Directive 7120.1 准用表只能支撑化学危害（安全性/适用性），不能证明对生物危害的控制**（控制细菌所需抗菌浓度不同）；④ 禽模型适用 SIS/NELS/NTIS/Traditional，**不含 NPIS**——NPIS 另有 FSIS-GD-2020-0012。
 - **版本核验**：2026-11-11 查 FSIS guidance portal 与 Small & Very Small Plant Guidance 列表，四份编号与日期分别为 GD-2020-0008（Oct 2020）、GD-2020-0009（Oct 2020）、GD-2020-0013（Nov 2020）、GD-2022-0006（Aug 2022），均为现行；旧版页面曾把前两份标为 Sep 2020，以 guidance portal 为准。Guidebook 与 SSOP Model 均有 USDA 官方中文译本，本包未并入。
 - **法律效力边界**：四份全部带 `guidance documents lack the force and effect of law` 免责声明，且通用模型另声明 "for demonstration purposes only / does not represent requirements that must be met"；模板、工作表、示例 CCP 与关键限值**不得写成法定义务或照抄**。法条锚点始终是 9 CFR 416 / 417 / 381。
 - **转换与校验**：PyMuPDF 按文本块/词坐标重建，表格按版面 y 行保序 + 矢量网格列边界切 GFM；catfish 的表格框线在文本层是 4.2–4.9pt 装饰字（正文最小 6.4pt），按字号精准剔除，并修正了「长虚线 span 的 bbox 横跨整行会误删同行正文」的缺陷。**四份合计 1965/1965 原文长句全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准，前三份零丢失、Guidebook 仅差 4 个封面装饰词。
 - **已知限制**：流程图页（catfish p.4 / poultry p.4 / Guidebook p.16、p.29）为矢量方框，文本层仅存散字，箭头走向不可恢复；跨页危害分析表按版面 y 行展开，未按逻辑行合并；poultry p.19 表头含源文档自带的 `Error! Bookmark not defined.`（Word 域错误），按原文保留。
-- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、Directive 7120.1 全文、Poultry Chilling Requirements 合规指南、FSIS-GD-2021-0005/0006 均未收；详见 capability-index 末尾清单。
+- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、Directive 7120.1 全文、FSIS-GD-2021-0005/0006 均未收（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
 
 ## 0j. 2026-11-11 第五批补档：1996 PR/HACCP 最终规则（立法史层）
 
@@ -125,7 +125,17 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 
 - **转换方法**：GPO Federal Register 为三栏排版（x≈45 / 222 / 399），但 PDF 文本流本身已按「栏1→栏2→栏3」排好，故直接逐行保留即零重排；仅剔除每页卷期页眉与 5 位 FR 页码，页标记附 FR 页码（`FR p.38805+N-1`）。Appendix E 的 TABLE 7–10 多为点线引导表而非矢量网格，按原文逐行保留、未强制转 GFM。**长句 4128/4128 全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准仅 9 词 deficit，全部来自被设计剔除的页眉。
 - **立法史要点**：1996 规则创立 9 CFR 416（SSOP，1997-01-27 生效）与 417（HACCP，大型 1998-01-26 / 小型 1999-01-25 / 微型 2000-01-25）、§310.25(a)/§381.94(a) 的 E. coli 过程控制（1997-01-27）、§310.25(b)/§381.94(b) 的 Salmonella 性能标准；TABLE 2 原始值为 Broilers 20.0 %（n=51, c=12）、Ground chicken 44.6 %（n=53, c=26）、Ground turkey 49.9 %（n=53, c=29）、Turkeys 待补。1996 年新增的 §381.94(a) 适用于**所有禽类屠宰企业**，现行版才限缩为 ratites——旧文献与现行条文不矛盾，是版本差异。
-- **本轮核心发现（起因是「家禽冷却是什么要求」）**：1996 规则 p.52–53 曾提议畜肉 50 °F/5 h → 40 °F/24 h、并把禽类 §381.66 改成可比要求，但 FSIS 明确 **"will extend and expand this rulemaking proceeding"、提案未采纳**；旧 §381.66(b) 的 40 °F/4·6·8 h 按重量分档表早于 1996 年即存在，直到 **2014 年 NPIS 最终规则（79 FR 49634，2014-10-20 生效）才被删除**，改为绩效式要求。FSIS-GD-2014-0014（Issue Date 2014-10，挂 §381.66(b)，官网页面与 askFSIS Q&A 已核实）把**被删旧规**与 **SIP 批准程序**并列为 "safe harbor"；企业还可自定并验证程序。
+- **本轮核心发现（起因是「家禽冷却是什么要求」）**：1996 规则 p.52–53 曾提议畜肉 50 °F/5 h → 40 °F/24 h、并把禽类 §381.66 改成可比要求，但 FSIS 明确 **"will extend and expand this rulemaking proceeding"、提案未采纳**；旧 §381.66(b) 的 40 °F/4·6·8 h 按重量分档表早于 1996 年即存在，直到 **2014 年 NPIS 最终规则（79 FR 49634，2014-10-20 生效）才被删除**，改为绩效式要求。FSIS-GD-2014-0014（Issue Date 2014-10，挂 §381.66(b)，官网页面与 askFSIS Q&A 已核实；0k 批已补入英文原版全文）把**被删旧规**与 **SIP 批准程序**并列为 "safe harbor"；企业还可自定并验证程序。
 - **同步修正的事实偏差**：`poultry-381` 曾把现行 §381.66(b) 写成「按胴体重量分档的冷却性能标准」（过时），已改为 (a)–(f) 六款完整表述并新增易错点；`SKILL.md` 陷阱表与 `haccp-generic-models` 中「safe harbor 只指 SIP」已补全为两条路径，并补充「§381.94 不是一直只管 ratites」一条。三处均标注历史文本与现行义务的边界，避免旧数字被写成法定限值。
 - **法律效力边界**：本件是**历史立法文本**，preamble 中被 FSIS 拒绝的提案、1996 年的性能标准数值与已删除的条款号**不得作为现行义务引用**；判现行合规一律回 eCFR 2026-11-09 版 sources 与对应能力卡。
-- **相邻缺口**：FSIS-GD-2014-0014 指南全文（英文版与官方中文版）、2014 年 79 FR 49634 最终规则 preamble 全文、1996 规则引用的 Appendix A–D/F 独立技术附件未收；详见 capability-index 末尾清单。
+- **相邻缺口（0k 批更新）**：FSIS-GD-2014-0014 **英文原版全文已补入**，仅官方中文译本、2014 年 79 FR 49634 最终规则 preamble 全文、各企业 SIP 批准程序完整清单、1996 规则引用的 Appendix A–D/F 独立技术附件未收；详见 capability-index 末尾清单。
+
+## 0k. 2026-11-11 第六批补档：FSIS-GD-2014-0014 冷却要求合规指南（英文原版）
+
+用户上传 `FSIS. Guide Modernization of Poultry Slaughter Inspection Amendments to Chilling Requirements.pdf`（6 页，15,873 字符，PDF 元数据 creationDate 2014-10-22），即 0i/0j 两批反复标注为「全文未收」的 **FSIS-GD-2014-0014**：*FSIS Compliance Guide: Modernization of Poultry Slaughter Inspection: Chilling Requirements*（内文副题 *Modernization of Poultry Slaughter Inspection: Amendments to Chilling Requirements*）。官网 `/guidelines/2014-0014` 核实 **Issue Date October 2014**、relates to **9 CFR 381.66(b)**、适用 RTC 禽官方企业。重建为 `sources/FSIS-GD-2014-0014-Chilling-Requirements-Compliance-Guide.md`（239 行 / 17,945 字节），新增 `capabilities/chilling-requirements-2014.md`。至此「家禽冷却」这条问题链（现行条文 → 1996 立法史 → 2014 删除 → 合规路径）四层一手源齐备。
+
+- **转换与校验**：6 页单栏、无书签、文本层完整，按原 PDF 硬换行逐行保留即零重排；仅剔除每页页码、三行页眉与两行重复免责声明。**长句 69/69 全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准有 46 词 deficit，逐条核查被剔除行去重清单（页眉×6、免责声明×6、页码×6），确认无正文误删。p.3 的 §381.66 条文引述、p.4–5 旧规 A–H 八款、p.6 四条 SIP 程序全部原样保留。
+- **本轮核心发现**：① 指南把 safe harbor 明确写成**两类**——2014 年规则删除的旧 §381.66(b) 时间温度规定（**A–H 共八款**，常被引用的 40 °F/4·6·8 h 只是 A 款）与 SIP waiver 批准过的替代程序，另加**第三条**企业自行开发并验证的程序（p.1）；② 2014-10-20 后采用替代冷却方式**不再需要 §381.66 waiver**，且**任何 RTC 禽企业**都可采用这些已验证程序、**无需再做科学验证**，但仍须并入 HACCP/SSOP/前提方案、监控参数并留存在本厂按预期执行的记录；③ **指南 p.6 的四条 SIP 示例是 44 °F/6 h（冷却器出口）、45 °F/16 h、≤44 °F 恒定、44 °F/4 h，并不含 45 °F/6 h**——禽模型 CCP 3 的 45 °F/6 h 依其脚注 32 自述源自 SIP 程序并援引本指南，但清单自称 "examples of common alternative procedures" 非穷尽，故不能写成「指南明文列出该数值」；指南中 45 °F 对应的是 **16 h**。
+- **同步修正**：`SKILL.md`（触发词、路由、条款直达、缺口清单、陷阱表）、`poultry-381`（旧规从 A/B 两款扩为 A–H 八款）、`haccp-generic-models`（45 °F/6 h 来源改为「脚注 32 自述」并补 p.6 差异）、`pr-haccp-1996-legislative-history`（三条路径表、审计缺口与关联卡）、`capability-index`（新增专行、删去「全文未收」）、`FSIS-GD-2020-0013` 源文档 frontmatter，共 21 处精确替换，均以英文原版为准；此前基于官网中文版摘要写入的数值已核对收紧。
+- **法律效力边界**：本件页脚明示 `Guidance documents lack the force and effect of law`，自述代表 FSIS 当前想法、自发布起可用，曾设 60 天评论期；**不新增法定义务**。A–H 与 SIP 任一组数字都只是 FSIS 认可的举证方式，**不得写成法定限值**；法条锚点始终是 §381.66(b)(3) 书面程序 + 防病原增殖，以及 §381.65(f)(g)、§416.2(g)、§381.94 与 9 CFR 417。
+- **相邻缺口**：官方中文译本、2014 年 79 FR 49634 最终规则 preamble 全文、各企业 SIP 批准程序完整清单（指南只列四条常见示例）未收；详见 capability-index 末尾清单。

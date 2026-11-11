@@ -61,8 +61,8 @@
 
 | 路径 | 依据 | 说明 |
 |---|---|---|
-| 沿用旧时间温度表 | FSIS-GD-2014-0014 列为 safe harbor；askFSIS Q&A 确认可支撑 CL | ≤4 lb 4 h→40 °F / 4–8 lb 6 h / >8 lb 8 h；冷却后 ≤40 °F；进一步加工中可升至 55 °F 但包装后立即回 40 °F 或入冷冻；留厂 >24 h 须置 ≤36 °F 房间 |
-| 沿用 SIP 批准程序 | 同上指南 | 禽类屠宰通用模型 CCP 3 的 **45 °F/6 h（胴体）、44 °F/4 h（部位/内脏/颈/爪，自脱离胴体起算）** 即此类；“safe harbor” 一词涵盖两条路径，**不只指 SIP** |
+| 沿用旧时间温度表（**A–H 八款**） | FSIS-GD-2014-0014 列为 safe harbor；askFSIS Q&A 确认可支撑 CL | A：≤4 lb 4 h→40 °F / 4–8 lb 6 h / >8 lb 8 h、冷却后 ≤40 °F；B：加工中可升至 55 °F 但包装后立即回 40 °F 或入冷冻、留厂 >24 h 须置 ≤36 °F 房间；C–H 另含饮用水制冰与 416.2(g) 回用、381.94、恒定 ≤40 °F、内脏 40 °F/2 h、吸水滞留与秤具、空气冷却 40 °F/16 h，详见 `chilling-requirements-2014` |
+| 沿用 SIP 批准程序 | 同上指南（**英文原版全文现已收录**） | 指南 p.6 列举的四条示例为 44 °F/6 h（冷却器出口）、45 °F/16 h、≤44 °F 恒定、44 °F/4 h；禽类屠宰通用模型 CCP 3 的 **45 °F/6 h（胴体）、44 °F/4 h（部位/内脏/颈/爪，自脱离胴体起算）** 依其脚注 32 自述源自 SIP 程序并援引该指南，但**不在这四条示例之内**（示例非穷尽）；“safe harbor” 涵盖两条路径 + 企业自定验证第三路径，**不只指 SIP**；2014 后不再需要 waiver |
 | 自定并验证的冷却程序 | §381.66(b)(3) | 书面程序须至少写明病原增殖可能性、影响胴体冷却的条件、冷却何时完成；并入 HACCP / SSOP / 前提方案，监控操作参数并留存符合性记录 |
 
 ## 边界与易错点
@@ -86,5 +86,5 @@
 - **一手源**：`sources/61-FR-38805-PRHACCP-Final-Rule-1996.md`（185 页 / 30,937 行 / 1,074,948 字节）。2026-11-11 由用户上传 GPO PDF 逐行重建；PDF 文本流本身按三栏顺序，仅剔除每页卷期页眉与 5 位 FR 页码，正文、amendatory 条文与 Appendix E 表格原样保留，页标记附 FR 页码（`FR p.38805+N-1`）。
 - **保真校验**：原文长句 **4128/4128 全量命中**、同口径词袋零丢失；以未做任何剔除的原始 PDF 全文实词为基准仅 9 个词 deficit（`federal / register / thursday / july / vol / no / rules / regulations / and`），全部来自被设计剔除的页眉行。
 - **官网核实**：2026-11-11 查 FSIS guidance portal，FSIS-GD-2014-0014（Issue Date October 2014，对应 §381.66(b)）现行在列；askFSIS 公共 Q&A「Regulatory Support for Poultry Processing Operation Temperature Control」确认旧 §381.66(b)(1) 规定为 safe harbor。
-- **已知缺口**：FSIS-GD-2014-0014 指南全文（英文版 PDF 与官方中文版）本包未收，本卡数值来自官方中文版公开文本与 eCFR 现行条文的交叉核对；1996 规则引用的 Appendix A–F 中除 Appendix E 外的独立技术附件、以及 2014 年 79 FR 49634 最终规则 preamble 全文亦未收。
-- **蒸馏时间**：2026-11-11 ｜ **关联卡**：poultry-381、haccp-417、ssop-416、postmortem-310、haccp-generic-models、haccp-validation-2015
+- **补档更新（2026-11-11 0k 批）**：FSIS-GD-2014-0014 **英文原版全文已收录**（sources/FSIS-GD-2014-0014-Chilling-Requirements-Compliance-Guide.md），三条合规路径、旧规 A–H 八款与 SIP 四条示例的全部数值以该原文为准，见 `chilling-requirements-2014`；本卡此前基于官网中文版公开摘要写入的数值已据英文原文核对并收紧。**仍缺**：官方中文译本、2014 年 79 FR 49634 最终规则 preamble 全文、各企业 SIP 批准程序完整清单、1996 规则引用的 Appendix A–F 中除 Appendix E 外的独立技术附件。
+- **蒸馏时间**：2026-11-11 ｜ **关联卡**：chilling-requirements-2014、poultry-381、haccp-417、ssop-416、postmortem-310、haccp-generic-models、haccp-validation-2015
