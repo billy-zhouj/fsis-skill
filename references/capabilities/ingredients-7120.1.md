@@ -3,12 +3,13 @@
 > **源文档**（体例：每条关键事实标注【源文件 + 条款/页/行号】）
 > - `sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`（**★ 现行版 Rev.63 完整 Table 2**，71 页官方 PDF 全文，2026-11-12 用户补传；查现行准用限量以本件为准）
 > - `sources/FSIS-Directive-7120.1-Rev63-2026-Official-PDF.md`（**现行版 Rev.63 主指令官方 PDF 原件**，3 页，2026-11-12 用户补传）
+> - `sources/7120.1-OLR-OFLR-Tables-Rev63-2026-Antimicrobial-Systems.md`（**现行 OLR/OFLR 已批准抗菌干预系统表**，29 页官方 PDF 全文，`Update November 2026`，2026-11-12 用户补传；**仅限禽类 Poultry，不适用于鲇形目**，详见 `olr-oflr-antimicrobial-systems`）
 > - `sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`（同版本指令门户网页转录，Table 1 已表格化，便于检索）
 > - `sources/FSIS-Directive-7120.1-Rev44-2017-Safe-Suitable-Ingredients.md`（**历史版 Rev.44 / 2017-12-27**，用户上传 126 页 PDF 全文，仅供沿革对照）
 > - `sources/9-CFR-Part-424-Labeling-Ingredients-2026eCFR.md`（§424.21 法规正面清单）
 > - 辅助印证：`sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md`（GD-2015-0011）、`sources/FSIS-GD-2022-0006-HACCP-Model-Raw-Intact-Farm-raised-Catfish.md`、`sources/FSIS-GD-2020-0013-HACCP-Model-Poultry-Slaughter.md`、`sources/FSIS-GD-2020-0008-Guidebook-HACCP-Plans.md`
 >
-> **适用意图**：某配料/加工助剂/抗菌剂能否用于输美鲶鱼或肉禽产品 · 限量多少 · 标签怎么写 · 7120.1 能不能当 HACCP 科学支撑 · 无异议函/FCN/GRN 是什么 · OLR/OFLR 系统清单在哪查。
+> **适用意图**：某配料/加工助剂/抗菌剂能否用于输美鲶鱼或肉禽产品 · 限量多少 · 标签怎么写 · 7120.1 能不能当 HACCP 科学支撑 · 无异议函/FCN/GRN 是什么。**OLR/OFLR 已批准系统清单已单独归档，另走 `olr-oflr-antimicrobial-systems`**——该表只管禽类，鲶鱼厂不可套用。
 
 ---
 
@@ -31,7 +32,9 @@
 - ❌ **不得**用 Rev.44 判定现行准用、引用现行限量、或作为迎检举证依据；
 - ⚠️ 引用"现行版"前须回 `https://www.fsis.usda.gov/policy/fsis-directives/7120.1` 核对修订号是否又更新——这份指令修订极频繁（Rev.62 → Rev.63 间隔不到 3 个月）。
 
-**缺口状态（2026-11-12 更新）**：完整 Table 2 已由用户补传归档（`sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`，71 页，官方 PDF 文本层全文），**本包现已能回答"某物质现行准不准用、限量多少、标签怎么写"**。原「Rev.44 鲇形目条目是否沿用」待核项已逐条核实（见第五节）。**仅 OLR/OFLR 抗菌干预系统表（`7120.1-olr-oflr-tables.pdf`）仍被 FSIS CDN（Akamai）返回 403 未能归档**，查已批准的在线/离线再加工抗菌系统须回官网。
+**缺口状态（2026-11-12 收盘更新）**：**7120.1 现行版四件源已全部到齐，本包再无 7120.1 清单缺口**。完整 Table 2（71 页）与 OLR/OFLR 抗菌干预系统表（29 页）均由用户补传归档，前者可查「某物质现行准不准用、限量多少、标签怎么写」，后者可查「某禽类抗菌干预系统是否已批准、FCN 与 COP 是什么」。原「Rev.44 鲇形目条目是否沿用」待核项已逐条核实（见第五节）。此前 FSIS CDN（Akamai）返回 403 的抓取障碍已由用户补传原件解决。
+
+> ⛔ **新归档的 OLR/OFLR 表只适用于禽类（for Poultry）**，29 页全文 `Siluriformes` / `catfish` / `fish` 均 0 次；**输美鲶鱼厂不得据以选系统或举证**。其适用范围、参数、与 Rev.44 差异、HACCP 关系见 `olr-oflr-antimicrobial-systems`。
 
 > ⚠️ **版本日期陷阱**：Table 2 文件头写 `rev. 63 (November 2026)`，但 **71 页页脚全部仍是 `... June, 2023`**（模板未随修订号更新）。以文件头为准，勿把页脚 2023 当作版本日期。
 
@@ -55,13 +58,13 @@ FSIS Directive 7120.1 Rev.63（现行版，2026-11-10）
  │                                  ✅ 官方 PDF 原件 + 门户转录，两份均已归档
  ├─ 7120.1_table_2.pdf             ★ 完整 Safe and Suitable Ingredients（71 页，**七列**大表）
  │                                  ✅ 已归档（2026-11-12 用户补传）
- ├─ 7120.1-olr-oflr-tables.pdf     ★ 已批准 OLR / OFLR 抗菌干预系统表  ❌ 仍未收（CDN 403）
+ ├─ 7120.1-olr-oflr-tables.pdf     ★ 已批准 OLR / OFLR 抗菌干预系统表  ✅ 已归档（2026-11-12 用户补传，29 页，仅禽类）
  └─ 9 CFR 424.21(c)               并行法定正面清单（已收）
 ```
 
-【Rev.63 源 §1 PURPOSE(2) 及链接表】
+【Rev.63 源 §1 PURPOSE B（官方 PDF；门户转录作第 2 条）及链接表】
 
-Rev.44 的 Table 3（OLR）/ Table 4（OFLR）在 p.107 起；**Rev.63 已拆出单册，页号不可沿用**【Rev.44 源 p.107、p.126；Rev.63 源校勘注记】。OLR/OFLR 依 79 FR 49566（禽类屠宰现代化最终规则）纳入企业 HACCP 计划、SSOP 或其他前提方案（9 CFR 381.91(b)(1)(2)）；该规则同时取消了"OFLR 必须用 20 ppm 游离有效氯"的旧要求【Rev.44 源 V.B/C】。
+Rev.44 的 Table 3（OLR）/ Table 4（OFLR）在 p.107 起；**Rev.63 已拆出单册，页号不可沿用**【Rev.44 源 p.107、p.126；Rev.63 源校勘注记】。OLR/OFLR 依 79 FR 49566（禽类屠宰现代化最终规则）纳入企业 HACCP 计划、SSOP 或其他前提方案（9 CFR 381.91(b)(1)(2)）；该规则同时取消了"OFLR 必须用 20 ppm 游离有效氯"的旧要求【Rev.44 源 V.B/C】。现行 29 页表**仅限禽类**（for Poultry），与鲇形目无关；参数、FCN 变体、Rev.44 数值差异与 HACCP 关系全表见 `olr-oflr-antimicrobial-systems`。
 
 ## 四、Table 2 怎么读（Rev.63 **七列** / Rev.44 六列）
 
@@ -180,7 +183,7 @@ Rev.63 本次 Table 1 五条更新的 Reference 即由 GRN（435 / 468 / 065）�
 3. **以为"在表内"就万事大吉** —— 仍须满足标准 of identity、限量、标签声明与全部法规要求（Rev.63 §1 PURPOSE(2) 原文）。
 4. **把 7120.1 当抗菌功效证据** —— 见第七节，只支撑化学危害。
 5. **标签代码混淆** —— Rev.44 数字 (1)–(6) 与 Rev.63 字母 A–F 定义相同、编码不同；引用时注明版本。
-6. **页号沿用** —— Rev.63 的 Table 2/OLR/OFLR 已拆成独立 PDF，Rev.44 的 p.107 / p.126 不再适用。
+6. **页号沿用** —— Rev.63 的 Table 2/OLR/OFLR 已拆成独立 PDF，Rev.44 的 p.107 / p.126 不再适用；OLR/OFLR 现用 29 页独立 PDF 的 `<!-- Page N -->` 页标记。
 7. **PDF 文本层表格错位** —— 两版源都是多列大表压成连续长行（Rev.63 更是七列交错），列边界不可靠；**不得据以引用限量或列归属**，须核原页。
 8. **"sufficient for purpose" 读成无限制** —— 仍受 GMP 约束。
 9. **专有混合物忽略** —— 组分合法 ≠ 配方合法。
@@ -195,13 +198,14 @@ Rev.63 本次 Table 1 五条更新的 Reference 即由 GRN（435 / 468 / 065）�
 2. 在包内 `sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md` 检索物质名（必要时核现行 PDF 原页）→ 核对 CATEGORY、INTENDED USE（是否含 "fish of the order Siluriformes" 或是否写 `excluding Siluriformes`）、AMOUNT、REFERENCE、LABELING REQUIREMENTS（A–F）。
 3. 同时核 9 CFR §424.21(c) 与 21 CFR 相应条款；确认不违反产品标准 of identity。
 4. 按标签列与中国侧附1-4、美国侧 §541.7(d)(e) 生成标签稿；加溶液/包冰衣产品另核解冻后净重。
-5. 若该物质用作抗菌干预：另备**功效与 COP 支撑**（7120.1/NOL 不够）；OLR/OFLR 系统另查独立表并纳入 HACCP/SSOP/前提方案。
+5. 若该物质用作抗菌干预：另备**功效与 COP 支撑**（7120.1/NOL 不够）；**禽类** OLR/OFLR 系统查 `sources/7120.1-OLR-OFLR-Tables-Rev63-2026-Antimicrobial-Systems.md` 并纳入 HACCP/SSOP/前提方案（9 CFR 381.91(b)(1)(2)），详见 `olr-oflr-antimicrobial-systems`；**鲇形目不在该表范围内**。
 6. 证据链归档：现行表页截图（带修订号与日期）、FCN/GRN/NOL 原件、配方用量计算、标签批准件、厂内验证记录。
 
 ## 十、审计信息
 
 - **质量核验（2026-11-12 初核）**：现行版修订号/日期/取消关系/结构拆分/A–F 定义/Table 1 五条更新，逐项取自 FSIS 指令门户网页正文；Rev.44 的 Siluriformes 条目从用户上传 PDF 文本层逐行定位。
 - **质量核验（2026-11-12 用户补传两份官方 PDF 后复核）**：① 主指令官方 PDF（3 页）与门户转录逐句对撞，Table 1 五条的限量/接触时间/21 CFR 法条号 **24/25 项全命中**，证实转录可靠；并查明**门户 PURPOSE 第 3 条不是官方 PDF 正文**（官方 PDF 仅 A、B 两条）；② 完整 Table 2（71 页）证实鲇形目十组磷酸盐混合物**全部沿用**、限量与标签要求未变，原待核项**已消**；③ 查明 Rev.63 表结构**新增 CATEGORY 列（七列）**、数字 (1)–(6) 与字母 A–F 按序一一对应、页脚 `June, 2023` 为模板遗留；④ 识别 Transglutaminase 排除鲇形目等新边界。
-- **未核实项（现存唯一）**：`7120.1-olr-oflr-tables.pdf`（已批准 OLR/OFLR 抗菌干预系统表）仍被 FSIS CDN 返回 403，未归档；查该系统清单须回官网。Rev.44 的 Table 3/4 页号不可沿用。
-- **源文档**：本卡头部所列 4 份 7120.1 主源 + 424 法规源 + 4 份辅助印证源
+- **质量核验（2026-11-12 用户补传第三份官方 PDF 后收盘）**：`7120.1-olr-oflr-tables.pdf`（29 页，`Update November 2026`）已归档为 `sources/7120.1-OLR-OFLR-Tables-Rev63-2026-Antimicrobial-Systems.md`，**7120.1 现行四件源全部到齐、本包再无 7120.1 清单缺口**；查明的重大边界是该表**仅限禽类（for Poultry）**、全文零 Siluriformes/catfish/fish，故对输美鲶鱼迎检方案**不可用**；另查得 AVIBROM 有效溴由 Rev.44 的 60–100 ppm 改为 60–450 ppm、FCN 编号上限由 1810 升至 2352，实证旧版数值不可沿用。整理版见 `olr-oflr-antimicrobial-systems`。
+- **未核实项**：OLR/OFLR 表本身不写修订号与日期（版本身份靠主指令 PURPOSE B 与门户链接推断）；FSIS 是否另有非禽类 OLR/OFLR 清单须回官网核对；表内 p.28 一张图片未提取。
+- **源文档**：本卡头部所列 5 份 7120.1 主源 + 424 法规源 + 4 份辅助印证源；OLR/OFLR 部分另见 `olr-oflr-antimicrobial-systems`
 - **蒸馏时间**：2026-11-12

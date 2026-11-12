@@ -123,7 +123,7 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **法律效力边界**：四份全部带 `guidance documents lack the force and effect of law` 免责声明，且通用模型另声明 "for demonstration purposes only / does not represent requirements that must be met"；模板、工作表、示例 CCP 与关键限值**不得写成法定义务或照抄**。法条锚点始终是 9 CFR 416 / 417 / 381。
 - **转换与校验**：PyMuPDF 按文本块/词坐标重建，表格按版面 y 行保序 + 矢量网格列边界切 GFM；catfish 的表格框线在文本层是 4.2–4.9pt 装饰字（正文最小 6.4pt），按字号精准剔除，并修正了「长虚线 span 的 bbox 横跨整行会误删同行正文」的缺陷。**四份合计 1965/1965 原文长句全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准，前三份零丢失、Guidebook 仅差 4 个封面装饰词。
 - **已知限制**：流程图页（catfish p.4 / poultry p.4 / Guidebook p.16、p.29）为矢量方框，文本层仅存散字，箭头走向不可恢复；跨页危害分析表按版面 y 行展开，未按逻辑行合并；poultry p.19 表头含源文档自带的 `Error! Bookmark not defined.`（Word 域错误），按原文保留。
-- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、FSIS-GD-2021-0005/0006 均未收（**Directive 7120.1 已于 0m/0n 批全批收录**：Rev.44 历史版全文 + Rev.63 主指令官方原件 + 门户转录 + 完整 Table 2；仅 OLR/OFLR 表仍待官网核对）（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
+- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、FSIS-GD-2021-0005/0006 均未收（**Directive 7120.1 已于 0m/0n/0o 批全批收录**：Rev.44 历史版全文 + Rev.63 主指令官方原件 + 门户转录 + 完整 Table 2 + OLR/OFLR 表（0o 批补入））（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
 
 ## 0j. 2026-11-11 第五批补档：1996 PR/HACCP 最终规则（立法史层）
 
@@ -167,10 +167,20 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 
 ## 0n. 2026-11-12 第十批补档：Rev.63 官方原件与完整 Table 2（配料准用缺口闭合）
 
-- 用户连续补传两份官方 PDF：`directive 7120.1.63.pdf`（3 页主指令原件）与 `7120.1_table_2.pdf`（**71 页完整 Table 2**）。后者正是第九批因 FSIS CDN（Akamai）返回 403 未能抓取、被标为「已知待核缺口」的清单；**本次补档后，本包已能回答「某物质现行准不准用、限量多少」**。仅 `7120.1-olr-oflr-tables.pdf`（已批准 OLR/OFLR 抗菌干预系统表）仍未收。
+- 用户连续补传两份官方 PDF：`directive 7120.1.63.pdf`（3 页主指令原件）与 `7120.1_table_2.pdf`（**71 页完整 Table 2**）。后者正是第九批因 FSIS CDN（Akamai）返回 403 未能抓取、被标为「已知待核缺口」的清单；**本次补档后，本包已能回答「某物质现行准不准用、限量多少」**。仅 `7120.1-olr-oflr-tables.pdf`（已批准 OLR/OFLR 抗菌干预系统表）当时仍未收，**已于第十一批（0o）由用户补传归档**。
 - 归档：`sources/FSIS-Directive-7120.1-Rev63-2026-Official-PDF.md`（3 页原件文本层）、`sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`（71 页 / 1,852 行 / 322.7 KB，保留 71 个页标记与页眉页脚）。
 - **校勘三项**：① 官方主指令 PDF 的 `I. PURPOSE` **只有 A、B 两条**，第九批从门户转录的第 3 条「标签列改用大写字母」是网页附加说明、非 PDF 正文；QUESTIONS 段的 askFSIS URL 同样为门户补充。② 主指令与门户转录对撞：Table 1 五条更新的限量、接触时间、21 CFR 法条号 **24/25 项全命中**，转录可靠（唯一未连命中的短语是 PDF 表格列交错把文字拆散所致，非实质差异）。③ Table 2 文件头 `rev. 63 (November 2026)` 但 **71 页页脚全部是 `June, 2023`**，属模板遗留，版本判定以文件头为准。
 - **表结构变化**：Rev.63 Table 2 **新增首列 CATEGORY，共七列**（Rev.44 为六列）；LABELING REQUIREMENTS 编码由数字 (1)–(6) 改为大写字母 A–F，经 Rev.44 原文核实**按序一一对应**（1 加工助剂→A … 6 FCS→F）。
 - **原待核项已消**：Rev.63 中 "Siluriformes" 出现 31 次 / 30 个文本行，Moisture Retention 段（p.63–66）**十组磷酸盐保水混合物全部沿用**，AMOUNT 一律 Sufficient for purpose、21 CFR 依据与「按主次降序 + 子清单 + 磷酸盐可统称 sodium phosphate」标签要求均未变。单体条目按 CATEGORY 归位（Binders / Flavoring Agents / Moisture Retention / Acidifiers/Alkalizers）。
 - **新增边界**：Bacteriophage（E. coli STEC-targeted，GRN 834）可用鲇形目；Rice bran extract（GRN 884，≤1.2 percent）为磷酸盐替代品但仅限标准 of identity 允许的肉禽制品；**Transglutaminase enzyme preparation（GRN 1021）明确 `excluding Siluriformes fish products`，鲇形目禁用**；Table 2 不出现 "catfish"，物种命名规则在 9 CFR 541.7(d)。
 - 能力卡 `ingredients-7120.1` 重写 §一（缺口闭合）/ §三（结构图）/ §四（七列）/ §五（现行版已核实）/ §八（新增三条易错点）/ §九（可直接查包内 Table 2）/ §十（审计信息）。索引同步：SKILL.md、capability-index、overview、labeling-412-424-317、haccp-generic-models、siluriformes-china。现为 37 份 sources / 20 张 capabilities。
+
+## 0o. 2026-11-12 第十一批补档：OLR/OFLR 抗菌干预系统表（7120.1 清单缺口全闭合）
+
+- 用户补传 `7120.1-olr-oflr-tables.pdf`（29 页 / 1.02 MB），正是 0m/0n 批因 FSIS CDN（Akamai）返回 403 未抓到的最后一份清单。用内置 PDF CLI `md-plain` 版面识别提取（30 个表格 / 3,222 段落 / 29 页），归档为 `sources/7120.1-OLR-OFLR-Tables-Rev63-2026-Antimicrobial-Systems.md`（532 行 / 62.5 KB，五列表格结构完整保留、页标记与跨页续行保留）；另以 `txt` 纯文本层对撞首尾页与关键词。**7120.1 共归档五件（Rev.44 历史版 1 件 + Rev.63 现行版四件），清单缺口全部闭合**。
+- ⛔ **本批最重要的发现：这张表只管禽类**。p.1–17《…OLR…for Poultry》约 77 行、p.17–29《…OFLR…for Poultry》约 53 行，全文 `Siluriformes` / `catfish` / `fish` **均 0 次**，工序全是 raw poultry carcasses/parts、IOBW 内外洗胴机、pre-chill、chiller；法条依据 9 CFR 381.91(b)(1)(2) 也只管禽类。**国内输美鲶鱼加工厂迎检不得据本表选系统或举证**——鲶鱼厂准用查 Table 2 + 9 CFR 424.21(c)，标签查 541.7，抗菌功效支撑另备。同厂兼有禽线时两套 HACCP/SSOP 参数不得混用。
+- **版本归属是推断，不是文件自称**：29 页页眉统一 `Update November 2026`，但文件里没有 "7120.1"、没有 "Rev. 63"、没有具体日期。其现行版身份来自 Rev.63 主指令 §I PURPOSE B（官方 PDF 原文；门户转录作第 2 条）与门户链接表；对外举证须与主指令 PDF 的 `7120.1 Rev. 63 11/10/26` 一并出示。Rev.44 的 Table 3/4 页号（p.107 / p.126）作废。
+- **与 Rev.44 对撞的硬差异**：表内 33 个不同 FCN 编号 739–2352（Rev.44 全文最高 1810），FCN 1936 / 1960 / 2036 / 2046 / 2266 / 2274 / 2352 为 2017 年后新增批准；**AVIBROM 有效溴 Rev.44 Table 3/4 为 60–100 ppm，现行 OLR p.3 与 OFLR p.18 均为 60–450 ppm 且挂 FCNs 334 / 453 / 1190**——旧版数值不可沿用。OFLR 的次氯酸钙与电解次氯酸两条仍写 20 ppm 游离有效氯并附「机构指南允许最高 50 ppm」NOTE，与 79 FR 49566 取消强制 20 ppm 的沿革一致。
+- **仍只是 COP 清单，不是功效证据**：依 GD-2015-0011 p.5/p.27 与 Directive 5000.6 Rev.2，单靠 7120.1/NOL 论证生物危害控制属支撑不足；COP 须写入 HACCP 计划 / SSOP / 前提方案，并另备指定 COP 下有效的挑战研究、同行评议文献或厂内 90 天数据。表内 7120.1 只支撑化学危害的边界不变。
+- 新建能力卡 `capabilities/olr-oflr-antimicrobial-systems.md`（十一节：一句话结论 / OLR·OFLR 定义 / 版本结构 / 五列读法 / 参数全景 / **°C·kg·L·MPa 度量衡换算，°F·lb·gal·psi 原文括注保留** / Rev.44 对撞 / HACCP 关系 / **输美鲶鱼厂怎么用** / 十二条易错点 / 使用路径 / 审计信息）。同步改写 `ingredients-7120.1`（缺口状态、结构图、使用路径、审计信息）、四份既有 7120.1 源的 `limitation` / `current_version`、`SKILL.md`（触发词、路由表新增一行、法规对照、缺口清单、陷阱表新增一条）、`capability-index.md`（能力卡表、源清单表、第十一批补档记录、相邻缺口段）。现为 **38 份 sources / 21 张 capabilities**。
+- **遗留未核实项**：FSIS 是否另有非禽类（鲇形目 / 红肉）OLR/OFLR 清单须回官网核对；本件 p.28 一张图片未提取；文件自身版本标识缺失，靠外部链接推断。

@@ -61,7 +61,7 @@
 - **两份禽类模型别混**：本卡是 FSIS-GD-2020-0013（2020-11，适用 SIS/NELS/NTIS/Traditional）；另有 **FSIS-GD-2020-0012《HACCP Model for New Poultry Inspection System (NPIS) Poultry Slaughter》（2020-10）**，本包未收。NPIS 线速 140/55 bpm 见 `poultry-381`，但两者适用的检验系统不同。
 - **两份鲶鱼模型别混**：本卡是 FSIS-GD-2022-0006（**养殖** farm-raised）；姊妹篇 **FSIS-GD-2022-0007（野捕 wild-caught，同月）** 本包未收。中国输美等效目前仅涵盖生产品，见 `siluriformes-china`。
 - **§381.65(f) 不是 §381.65(g)**：可见粪便不得入冷却槽是 (f)，须写入 HACCP/SSOP/前提方案；(g) 是全程防污染书面程序 + 微生物采样。禽模型 CCP 1 的法定锚点是 (f)。
-- **7120.1 只支撑化学危害**：不能用准用表证明抗菌剂对病原体的控制效果（鲶鱼模型脚注 18）。另注意 **Rev.44（2017）已被 Rev.63（2026-11-10）取代**，用旧版准用表举证会直接出错；**现行完整 Table 2 已于 2026-11-12 归档**（`ingredients-7120.1`）。
+- **7120.1 只支撑化学危害**：不能用准用表证明抗菌剂对病原体的控制效果（鲶鱼模型脚注 18）。另注意 **Rev.44（2017）已被 Rev.63（2026-11-10）取代**，用旧版准用表举证会直接出错；**现行完整 Table 2 已于 2026-11-12 归档**（`ingredients-7120.1`）。禽类 OLR/OFLR 已批准抗菌干预系统及其关键操作参数（COP）另见 `olr-oflr-antimicrobial-systems`——该 29 页表**仅限 Poultry，鲇形目不适用**，且清单本身不是功效证据。
 - **判定 RLTO=No 不是「免义务」**：前提方案随即并入 HACCP system 并须按两要素验证、留原始记录贯穿 life of the HACCP system（`hav-task-5000.6` Step 6.G）。
 
 ## 专家注记
