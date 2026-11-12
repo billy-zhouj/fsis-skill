@@ -6,9 +6,10 @@
 > - 本次新归档 11 份：`sources/9-CFR-Part-530-General-2026eCFR.md`、`539-Mandatory-Dispositions`、`540-Condemned-Inedible`、`544-Food-Ingredients`、`548-Preparation-of-Products`、`550-Records`、`552-Exports`、`555-Transportation`、`559-Detention-Seizure`、`560-State-Federal`、`561-Rules-of-Practice`（均为 `-2026eCFR.md` 结尾，eCFR 2026-11-09 官方打印版 PDF 文本层全文）
 > - 此前已归档 7 份：`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`（531/532/533/534/537 合并件）、`sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`
 > - 通用法规源：`sources/9-CFR-Part-416-2026eCFR.md`、`417`、`418-Recalls`、`424-Labeling-Ingredients`、`317-Meat-Labeling`、`412-Label-Approval`、`500-Enforcement`、`327-Imported-Products`、`381-Poultry`
+> - **第十三批补入（2026-11-12）**：`sources/9-CFR-Part-430-RTE-Listeria-2026eCFR.md`、`sources/9-CFR-Part-431-Canned-Foods-2026eCFR.md`（Subchapter E 通用法规，经 §548.5 / §548.6 转致适用于鲇形目），整理版 `capabilities/rte-listeria-430-canned-431.md`
 > - 中国侧：`sources/GACC-Inspection-Workbook-Annex1-US-Catfish-Special-Provisions.md`、`GACC-Annex-Catfish-Requirements-2019.md`、`FR-2019-24055-PRC-Siluriformes-Eligibility.md`；能力卡 `siluriformes-china.md`、`gacc-inspection-workbook.md`、`labeling-412-424-317.md`
 >
-> **与相邻卡的分工**：本卡是**全章地图与转致索引**；具体「中国侧等效与派驻检验员」查 `siluriformes-china.md`，「海关作业指导书逐条对照」查 `gacc-inspection-workbook.md`，「标签实体要求」查 `labeling-412-424-317.md`，「配料准用限量」查 `ingredients-7120.1.md`，「HACCP 体系」查 `haccp-417.md`。
+> **与相邻卡的分工**：本卡是**全章地图与转致索引**；具体「中国侧等效与派驻检验员」查 `siluriformes-china.md`，「海关作业指导书逐条对照」查 `gacc-inspection-workbook.md`，「标签实体要求」查 `labeling-412-424-317.md`，「配料准用限量」查 `ingredients-7120.1.md`，「HACCP 体系」查 `haccp-417.md`，「RTE 李斯特菌三条替代方案 / 罐头 12 条与迎检参数」查 `rte-listeria-430-canned-431.md`。
 
 ---
 
@@ -68,7 +69,7 @@ Subchapter F 的条款经常只有一句「the requirements in 9 CFR 3xx.x apply
 | §541.7(a)(f)(g) | **317 subpart A/B、412**（须经转致才适用）、441、442 | **317/412 已归档** |
 | §541.4 / §552.1 | 312.8(a)(b)（标志/证书样式）、**322.1(a) / 322.2 / 322.4**（签发与结关） | 未归档 |
 | §544.1(a) | **part 424**（含 424.21(c) 正面清单）+ Administrator 个案批准 | **已归档** |
-| §548.1 / 548.5 / 548.6 / 548.8 / 548.9 | 303.1、**430（RTE 李斯特菌）**、**431（罐头）**、318.4、439 | 未归档 |
+| §548.1 / 548.5 / 548.6 / 548.8 / 548.9 | 303.1、**430（RTE 李斯特菌）**、**431（罐头）**、318.4、439 | **★ 430 / 431 已归档**（2026-11-12 第十三批，走 capabilities/rte-listeria-430-canned-431.md）；303.1 / 318.4 / 439 仍未归档 |
 | §550.1–550.7 | 320.1–320.7（记录、地点、期限、查阅、注册、报告） | 未归档 |
 | §555.3–555.8 | 325.5 / 325.10 / 325.11(e) / 325.14 / 325.17、**541.3 + 312.5（封签）** | 541 已归档，其余未归档 |
 | §557.2 / 557.6 | **327.2**（等效判定）、327 系列（口岸复检）、327.12（贸易标签抽样） | **327 已归档** |
@@ -123,7 +124,7 @@ Subchapter F 的条款经常只有一句「the requirements in 9 CFR 3xx.x apply
 2. **把 §552.1 当中国出口证书依据**：552 管美国出口；输美证书走 §557.4 九要素 + GACC 等效协议。
 3. **把 §559 行政扣留当口岸拒入境**：口岸拒入境/复检走 §557.6 与 327 系列；559 主要管美国境内流通。
 4. **以为 §544.1(b) 是限量表**：(b) 是 `[Reserved]`；限量在 part 424 与 7120.1 Table 2。
-5. **以为 §548.5 / 548.6 自带李斯特菌或杀菌参数**：它们是转致到 9 CFR 430 / 431，参数须另查。
+5. **以为 §548.5 / 548.6 自带李斯特菌或杀菌参数**：两部只给转致，实体框架在 9 CFR 430 / 431（**2026-11-12 第十三批已归档**，走 `capabilities/rte-listeria-430-canned-431.md`）；⚠️ 430 / 431 本身也**不给**具体产品的 Lm log 下降值或杀菌温度/时间/F0 值，那些须企业按 §417.4 / §431.3 自行验证并写入 process schedule 或 HACCP/SSOP。
 6. **把 §550.3 凭印象写成「记录保存 2 年」**：本条只转致 320.3，年限必须查 320.3 原文。
 7. **把 §541.7 当作 317/412 自动适用**：必须经 §541.7(a)(f)(g) 的**转致**才适用于鱼及鱼制品。
 8. **把 OLR/OFLR 禽类抗菌系统表用到鲶鱼**：两表标题均 `for Poultry`，全文零 Siluriformes / catfish / fish。
@@ -145,7 +146,8 @@ Subchapter F 的条款经常只有一句「the requirements in 9 CFR 3xx.x apply
 | 配料能不能用、限量多少 | §544.1 → `ingredients-7120.1.md` | `7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md` |
 | 标签怎么标 | `labeling-412-424-317.md` | `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md` |
 | 口岸证书与复检 | `siluriformes-china.md` | `sources/9-CFR-Part-557-Importation-2026eCFR.md` |
-| RTE / 罐头 / 记录年限 / 出口证书格式 | 本卡 §三标「未归档」处 | 回 eCFR 官网核对 430 / 431 / 320.3 / 322.2 |
+| RTE 李斯特菌控制 / 罐头/商业无菌 | `capabilities/rte-listeria-430-canned-431.md` | `sources/9-CFR-Part-430-RTE-Listeria-2026eCFR.md`、`sources/9-CFR-Part-431-Canned-Foods-2026eCFR.md`（第十三批已归档） |
+| 记录年限 / 出口证书格式 | 本卡 §三标「未归档」处 | 回 eCFR 官网核对 320.3 / 322.2 |
 
 ---
 
@@ -154,9 +156,10 @@ Subchapter F 的条款经常只有一句「the requirements in 9 CFR 3xx.x apply
 **已闭合**：此前缺口清单中的 539 / 540 / 544 / 548 / 550 / 552 / 555 / 559 / 560 / 561（本次 11 份）与 7120.1 OLR/OFLR（第十一批）；Subchapter F 全章 18 个有内容 Part 全部到齐。
 
 **仍存在的缺口（诚实标注）**：
-- 被转致但本包**未归档**的 3xx 系列通用法规：9 CFR 300、303、304、307、314.9、318.4、320、322、325、329、331、335、430、431、439、312.x。其中 **430（RTE 李斯特菌）、431（罐头）、320.3（记录年限）、322.2（出口证书）** 对实务影响最大，建议后续优先补。
+- 被转致但本包**未归档**的 3xx 系列通用法规：9 CFR 300、303、304、307、314.9、318.4、320、322、325、329、331、335、439、312.x。其中 **320.3（记录年限）、322.2（出口证书）** 对实务影响最大，建议后续优先补。**2026-11-12 第十三批已闭合 430（RTE 李斯特菌）与 431（罐头）两处最大缺口**，走 `capabilities/rte-listeria-430-canned-431.md`。
+- **第十三批新发现的下游缺口**：`FSIS Directive 7530.2`《Verification Activities in Canning Operations that Choose to Follow the Canning Regulations》—— Directive 5000.1 Rev.8 第 1529 / 1562 行要求 IPP 按该指令验证罐头法规实施，本包未归档；Part 431 的 7 张设备示意图与 §431.305 悬空引用亦待补正。
 - 21 CFR part 556（兽药耐受量）与 40 CFR part 180（农药耐受量）的具体数值表未归档，须查 FDA / EPA 现行表。
 - eCFR 打印版 PDF 的版面错排已在校勘注记中逐份标注，但**未做逐条重排的整理版**；引用具体款项须核原页。
 - 全批源为 `authoritative but unofficial` 的电子文本层，正式法律举证须回 eCFR 官网或 CFR 年度版。
 
-**审计信息**：2026-11-12 第十二批补档。用户上传 17 份官方 PDF（`G:/下载/9 CFR Part XXX (up to date as of 11-09-2026).pdf`），共 41 页；用 workbuddy-pdf CLI `txt` 与 `md-plain` 双格式提取，另以 eCFR 在线目录核对 Subchapter F 的 Part 清单与 `[Reserved]` 状态。新建 11 份 sources + 1 张 capabilities；对 6 份与既有源同文的 PDF 做条号集合与词集双对撞，未重复归档；既有合并件与 557 源仅在**文件末尾**追加《校勘补记》，557 frontmatter 做同行替换，确保既有「第 13–29 行」「第 147 行」等行号引用全部保持有效。
+**审计信息**：2026-11-12 第十二批补档。用户上传 17 份官方 PDF（`G:/下载/9 CFR Part XXX (up to date as of 11-09-2026).pdf`），共 41 页；用 workbuddy-pdf CLI `txt` 与 `md-plain` 双格式提取，另以 eCFR 在线目录核对 Subchapter F 的 Part 清单与 `[Reserved]` 状态。新建 11 份 sources + 1 张 capabilities；对 6 份与既有源同文的 PDF 做条号集合与词集双对撞，未重复归档；既有合并件与 557 源仅在**文件末尾**追加《校勘补记》，557 frontmatter 做同行替换，确保既有「第 13–29 行」「第 147 行」等行号引用全部保持有效。**2026-11-12 第十三批同步**：补入 9 CFR Part 430 / 431 两部 Subchapter E 通用法规全文与能力卡 `rte-listeria-430-canned-431`，本卡 §三转致链、§六易错点 5、§七使用路径、§八剩余缺口已相应更新；430 被引的 416 / 416.14 / 417.4 / 417.5 与 431 被引的 417 / 416 / 424 / 540 / 541 均在本包内，两条链完全闭合。
