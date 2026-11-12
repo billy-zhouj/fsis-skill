@@ -1,7 +1,9 @@
 # 配料准用：FSIS Directive 7120.1《Safe and Suitable Ingredients》
 
 > **源文档**（体例：每条关键事实标注【源文件 + 条款/页/行号】）
-> - `sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`（**现行版 Rev.63 / 2026-11-10**，指令门户网页正文）
+> - `sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`（**★ 现行版 Rev.63 完整 Table 2**，71 页官方 PDF 全文，2026-11-12 用户补传；查现行准用限量以本件为准）
+> - `sources/FSIS-Directive-7120.1-Rev63-2026-Official-PDF.md`（**现行版 Rev.63 主指令官方 PDF 原件**，3 页，2026-11-12 用户补传）
+> - `sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`（同版本指令门户网页转录，Table 1 已表格化，便于检索）
 > - `sources/FSIS-Directive-7120.1-Rev44-2017-Safe-Suitable-Ingredients.md`（**历史版 Rev.44 / 2017-12-27**，用户上传 126 页 PDF 全文，仅供沿革对照）
 > - `sources/9-CFR-Part-424-Labeling-Ingredients-2026eCFR.md`（§424.21 法规正面清单）
 > - 辅助印证：`sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md`（GD-2015-0011）、`sources/FSIS-GD-2022-0006-HACCP-Model-Raw-Intact-Farm-raised-Catfish.md`、`sources/FSIS-GD-2020-0013-HACCP-Model-Poultry-Slaughter.md`、`sources/FSIS-GD-2020-0008-Guidebook-HACCP-Plans.md`
@@ -22,14 +24,16 @@
 | 结构 | 126 页单册，Table 1/2/3/4 全在内 | 主指令只留更新摘要；完整 Table 2 与 OLR/OFLR 表**各自独立 PDF** |
 | 标签要求列编码 | 数字 (1)–(6) | **大写字母 A–F**（定义不变） |
 
-【Rev.63 源 §2 CANCELLATION、§1 PURPOSE(3)；Rev.44 源 frontmatter 与 p.1】
+【Rev.63 官方 PDF §II CANCELLATION、§I PURPOSE A/B；Rev.63 门户源 §1(3) 为门户附加说明、非 PDF 正文；Rev.44 源 frontmatter 与 p.1】
 
 **因此：**
 - ✅ 可以用 Rev.44 查"某物质历史上是否列过、法条编号怎么表述、沿革如何"；
 - ❌ **不得**用 Rev.44 判定现行准用、引用现行限量、或作为迎检举证依据；
 - ⚠️ 引用"现行版"前须回 `https://www.fsis.usda.gov/policy/fsis-directives/7120.1` 核对修订号是否又更新——这份指令修订极频繁（Rev.62 → Rev.63 间隔不到 3 个月）。
 
-**包内已知缺口**：现行版两个完整清单 PDF（`7120.1_table_2.pdf`、`7120.1-olr-oflr-tables.pdf`）于 2026-11-12 请求被 FSIS CDN（Akamai）返回 403，未能归档。所以**本包能回答"这套机制怎么运作"，不能回答"某物质现在准不准用、限量多少"**——后者必须打开官网原 PDF。Rev.44 里 19 处 Siluriformes 条目在 Rev.63 是否仍在表内、限量有无变化，本次未核实。
+**缺口状态（2026-11-12 更新）**：完整 Table 2 已由用户补传归档（`sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`，71 页，官方 PDF 文本层全文），**本包现已能回答"某物质现行准不准用、限量多少、标签怎么写"**。原「Rev.44 鲇形目条目是否沿用」待核项已逐条核实（见第五节）。**仅 OLR/OFLR 抗菌干预系统表（`7120.1-olr-oflr-tables.pdf`）仍被 FSIS CDN（Akamai）返回 403 未能归档**，查已批准的在线/离线再加工抗菌系统须回官网。
+
+> ⚠️ **版本日期陷阱**：Table 2 文件头写 `rev. 63 (November 2026)`，但 **71 页页脚全部仍是 `... June, 2023`**（模板未随修订号更新）。以文件头为准，勿把页脚 2023 当作版本日期。
 
 ## 二、这份文件是什么、不是什么
 
@@ -46,33 +50,44 @@
 ## 三、现行版文件结构（别再按 126 页单册找）
 
 ```
-FSIS Directive 7120.1 Rev.63（主指令，网页正文已收）
- ├─ 7120.1.pdf                     主指令：PURPOSE / CANCELLATION / Table 1 更新摘要 / QUESTIONS
- ├─ 7120.1_table_2.pdf             ★ 完整 Safe and Suitable Ingredients（六列大表）
- ├─ 7120.1-olr-oflr-tables.pdf     ★ 已批准 OLR / OFLR 抗菌干预系统表
- └─ 9 CFR 424.21(c)              并行法定正面清单
+FSIS Directive 7120.1 Rev.63（现行版，2026-11-10）
+ ├─ 7120.1.pdf                     主指令：PURPOSE(A/B) / CANCELLATION / Table 1 更新摘要 / QUESTIONS
+ │                                  ✅ 官方 PDF 原件 + 门户转录，两份均已归档
+ ├─ 7120.1_table_2.pdf             ★ 完整 Safe and Suitable Ingredients（71 页，**七列**大表）
+ │                                  ✅ 已归档（2026-11-12 用户补传）
+ ├─ 7120.1-olr-oflr-tables.pdf     ★ 已批准 OLR / OFLR 抗菌干预系统表  ❌ 仍未收（CDN 403）
+ └─ 9 CFR 424.21(c)               并行法定正面清单（已收）
 ```
 
 【Rev.63 源 §1 PURPOSE(2) 及链接表】
 
 Rev.44 的 Table 3（OLR）/ Table 4（OFLR）在 p.107 起；**Rev.63 已拆出单册，页号不可沿用**【Rev.44 源 p.107、p.126；Rev.63 源校勘注记】。OLR/OFLR 依 79 FR 49566（禽类屠宰现代化最终规则）纳入企业 HACCP 计划、SSOP 或其他前提方案（9 CFR 381.91(b)(1)(2)）；该规则同时取消了"OFLR 必须用 20 ppm 游离有效氯"的旧要求【Rev.44 源 V.B/C】。
 
-## 四、Table 2 六列怎么读
+## 四、Table 2 怎么读（Rev.63 **七列** / Rev.44 六列）
+
+> **结构变化**：Rev.63 在原有六列前**新增首列 CATEGORY**（如 Acidifiers/Alkalizers、Antimicrobials、Binders、Flavoring Agents、Miscellaneous、Moisture Retention、Packaging Systems），便于按用途类别定位。Rev.44 无此列。
 
 | 列 | 内容 | 读法要点 |
 |---|---|---|
+| **CATEGORY**（Rev.63 新增） | 用途类别 | 鲇形目条目集中在 Binders / Flavoring Agents / Moisture Retention / Acidifiers/Alkalizers / Antimicrobials |
 | SUBSTANCE | 物质/专有混合物名 | 混合物即使组分都是 GRAS，整体也可能属**专有配方**（proprietary）【Rev.44 源 V.D】 |
 | INTENDED USE OF PRODUCT | 适用产品与用途 | 会写明 "fish of the order Siluriformes" 等专属适用对象 |
 | AMOUNT | 限量 / sufficient for purpose using GMP | "sufficient for purpose" 不是无限制，仍受 GMP |
 | REFERENCE | 法律依据 | 见第六节四类 |
 | LABELING REQUIREMENTS | 标签后果 | Rev.44 用 (1)–(6)，**Rev.63 改 A–F**；定义见下 |
 
-**A–F 定义（Rev.63，与 Rev.44 数字 1–6 一一对应）**【Rev.63 源 §3 表】：
+**A–F 定义（Rev.63；与 Rev.44 数字 1–6 **按序一一对应，已核实**）**【Rev.63 Table 2 每页页眉；Rev.44 源 V 段原文 `1) processing aid, 2) GRAS, 3) Secondary Direct Food Additive, 4) Direct Food Additive, 5) Color Additive, 6) FCS`】：
 A 加工助剂（符合 FDA 标签定义）/ B GRAS / C 次级直接食品添加剂 / D 直接食品添加剂 / E 着色剂 / F 食品接触物质（FCN，制造、包装、运输、盛放食品用材料成分，且对食品不产生技术作用）。
 
-## 五、鲇形目专属准用条目（Rev.44 历史清单，须以现行 Table 2 复核）
+## 五、鲇形目专属准用条目（**现行版 Rev.63 已逐条核实**）
 
-Rev.44 全文中 "Siluriformes" 共出现 **27 次、分布于 19 个文本行**（PDF 表格被压平，实际专属条目多于 19 个——仅 Moisture Retention 段就有 10 组）。以下按实用度排列，物质名保留英文原名以便检索。
+**核实结论（2026-11-12）**：现行 `7120.1-Table-2-Rev63` 中 "Siluriformes" 出现 **31 次、分布 30 个文本行**；Rev.44 的**十组磷酸盐保水混合物全部沿用**，AMOUNT 一律 `Sufficient for purpose`，21 CFR 依据与标签要求（按主次降序 + 子清单 + 磷酸盐可统称 "sodium phosphate"）**均未变**。以下清单因此可以**作为现行依据使用**（引用限量前仍建议核原页，因 PDF 文本层表格列交错）。物质名保留英文原名以便检索。
+
+> **Rev.63 新增/本次新识别的鲇形目相关条目**：Bacteriophage preparation（E. coli STEC-targeted，GRN 834，1×10⁸ PFU/g，适用于 intact red meat / poultry / **Siluriformes**）；Electrolytically generated hypochlorous acid（含 Siluriformes 清洗/冷却水，游离氯 ≤50 ppm、pH 4–7.5）；Rice bran extract（GRN 884，≤1.2 percent，作为磷酸盐替代品，**仅限标准 of identity 允许的肉禽制品**）；Algal oil、Hydrolyzed chicken and turkey protein。
+>
+> ⛔ **排除项**：Transglutaminase enzyme preparation（GRN 1021，≤65 ppm）明确写 `excluding Siluriformes fish products` —— **鲇形目制品禁用**，别把"肉禽可用"直接推到鲶鱼上。
+>
+> 表内**不出现 "catfish" 字样**；物种常用名（basa/swai/tra/sutchi）与 "catfish" 仅限鮰科的规则在 **9 CFR 541.7(d)**，不属本表范围。
 
 ### 5.1 保水磷酸盐混合物 —— 鲶鱼片最常用（Moisture Retention 段，p.96–100）
 
@@ -93,7 +108,9 @@ Rev.44 全文中 "Siluriformes" 共出现 **27 次、分布于 19 个文本行**
 | 9 | 三聚磷酸钠 + 食盐 + 柠檬酸钾 | 182.1810、184.1625 |
 | 10 | 三聚磷酸钠 + 食盐（可选） | 182.1810 |
 
-【Rev.44 源 p.96–100，第 1282–1314 行】
+【Rev.44 源 p.96–100，第 1282–1314 行；**Rev.63 Table 2 p.63–66 逐条核实全部沿用**（L1645/1647/1649/1658/1660/1662/1671/1673/1675/1677/1694）】
+
+> ⚠️ Rev.63 PDF 文本层把这几行的**物质名、REFERENCE、标签要求三列文字切成交错片段**（例如 p.63 第三行的物质名与 182.1087 出现错位）。上表组分以 Rev.44 清晰文本层为准、法条号两版一致；对外举证前请核对现行 PDF 原页 p.63–65。
 
 ### 5.2 单体与其他鲇形目专属条目
 
@@ -116,7 +133,9 @@ Rev.44 全文中 "Siluriformes" 共出现 **27 次、分布于 19 个文本行**
 
 【Rev.44 源第 151、884、912、949、979、981、983、1002、1088、1092、1103、1303、1305、1312 行】
 
-> ⚠️ **上表是 Rev.44 的历史快照**，只能用于"知道该往哪个方向查"。配方定型前必须打开现行 `7120.1_table_2.pdf` 逐项复核物质名、限量与标签代码（A–F）。
+> ✅ **现行版 CATEGORY 归属（Rev.63 Table 2）**：Binders = Guar gum / Monocalcium phosphate / Sodium aluminum phosphate / Sodium carbonate or sodium bicarbonate / Sodium phosphate / Potassium bicarbonate / Xanthan gum；Flavoring Agents = Malic acid / Potassium carbonate；Moisture Retention = Calcium citrate / Sodium citrate / Sodium tripolyphosphate；Acidifiers/Alkalizers = Potassium carbonate or potassium bicarbonate。上表标签列 **(4)** 在现行版为 **(D)**（数字 4 = 字母 D，直接食品添加剂）。
+>
+> ⚠️ 上表物质名与限量已由 Rev.63 完整 Table 2 核实仍在表内；但**列归属与具体限量**仍建议核现行 PDF 原页（文本层表格压平）。配方定型前按第九节顺序走一遍。
 
 ### 5.3 三条链在"加溶液鲶鱼片"上交汇（本卡最实用的一段）
 
@@ -162,15 +181,18 @@ Rev.63 本次 Table 1 五条更新的 Reference 即由 GRN（435 / 468 / 065）�
 4. **把 7120.1 当抗菌功效证据** —— 见第七节，只支撑化学危害。
 5. **标签代码混淆** —— Rev.44 数字 (1)–(6) 与 Rev.63 字母 A–F 定义相同、编码不同；引用时注明版本。
 6. **页号沿用** —— Rev.63 的 Table 2/OLR/OFLR 已拆成独立 PDF，Rev.44 的 p.107 / p.126 不再适用。
-7. **PDF 文本层表格错位** —— 历史版源是多列大表压成连续长行，列边界不可靠；**不得据以引用限量**，须核原页。
+7. **PDF 文本层表格错位** —— 两版源都是多列大表压成连续长行（Rev.63 更是七列交错），列边界不可靠；**不得据以引用限量或列归属**，须核原页。
 8. **"sufficient for purpose" 读成无限制** —— 仍受 GMP 约束。
 9. **专有混合物忽略** —— 组分合法 ≠ 配方合法。
 10. **GRAS 自动适用误解** —— FDA GRAS 不等于 FSIS 自动准用，须对 424.21 与本指令。
+11. **页脚日期当版本日期** —— 现行 Table 2 文件头 `rev. 63 (November 2026)`、71 页页脚却全是 `June, 2023`；以文件头为准。
+12. **把肉禽可用的新条目推到鲇形目** —— Transglutaminase enzyme preparation 明确 `excluding Siluriformes fish products`；Rice bran extract 也仅限标准 of identity 允许的肉禽制品。
+13. **以为准用表会写物种名** —— Table 2 不出现 "catfish"；物种常用名与 "catfish" 仅限鮰科在 9 CFR 541.7(d)，属标签法而非准用表。
 
 ## 九、使用路径（给企业的自检顺序）
 
 1. 打开 `https://www.fsis.usda.gov/policy/fsis-directives/7120.1`，**记下当日修订号与 Issue Date**。
-2. 在现行 `7120.1_table_2.pdf` 检索物质名 → 核对 INTENDED USE（是否含 "fish of the order Siluriformes"）、AMOUNT、REFERENCE、LABELING REQUIREMENTS。
+2. 在包内 `sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md` 检索物质名（必要时核现行 PDF 原页）→ 核对 CATEGORY、INTENDED USE（是否含 "fish of the order Siluriformes" 或是否写 `excluding Siluriformes`）、AMOUNT、REFERENCE、LABELING REQUIREMENTS（A–F）。
 3. 同时核 9 CFR §424.21(c) 与 21 CFR 相应条款；确认不违反产品标准 of identity。
 4. 按标签列与中国侧附1-4、美国侧 §541.7(d)(e) 生成标签稿；加溶液/包冰衣产品另核解冻后净重。
 5. 若该物质用作抗菌干预：另备**功效与 COP 支撑**（7120.1/NOL 不够）；OLR/OFLR 系统另查独立表并纳入 HACCP/SSOP/前提方案。
@@ -178,7 +200,8 @@ Rev.63 本次 Table 1 五条更新的 Reference 即由 GRN（435 / 468 / 065）�
 
 ## 十、审计信息
 
-- **质量核验（2026-11-12）**：现行版修订号/日期/取消关系/结构拆分/A–F 定义/Table 1 五条更新，逐项取自 FSIS 指令门户网页正文；Rev.44 的 19 处 Siluriformes 条目从用户上传 PDF 文本层逐行定位（第 151、884、912、949、979、981、983、1002、1088、1092、1103、1282–1314 行）。7120.1 只支撑化学危害的边界与包内四份既有源（GD-2015-0011、GD-2022-0006、GD-2020-0013、5000.6 Rev.2）表述一致，无冲突。
-- **未核实项**：现行 Table 2 中鲇形目条目是否沿用 Rev.44 清单；两个完整清单 PDF 因 CDN 403 未抓取。使用前须回官网核对。
+- **质量核验（2026-11-12 初核）**：现行版修订号/日期/取消关系/结构拆分/A–F 定义/Table 1 五条更新，逐项取自 FSIS 指令门户网页正文；Rev.44 的 Siluriformes 条目从用户上传 PDF 文本层逐行定位。
+- **质量核验（2026-11-12 用户补传两份官方 PDF 后复核）**：① 主指令官方 PDF（3 页）与门户转录逐句对撞，Table 1 五条的限量/接触时间/21 CFR 法条号 **24/25 项全命中**，证实转录可靠；并查明**门户 PURPOSE 第 3 条不是官方 PDF 正文**（官方 PDF 仅 A、B 两条）；② 完整 Table 2（71 页）证实鲇形目十组磷酸盐混合物**全部沿用**、限量与标签要求未变，原待核项**已消**；③ 查明 Rev.63 表结构**新增 CATEGORY 列（七列）**、数字 (1)–(6) 与字母 A–F 按序一一对应、页脚 `June, 2023` 为模板遗留；④ 识别 Transglutaminase 排除鲇形目等新边界。
+- **未核实项（现存唯一）**：`7120.1-olr-oflr-tables.pdf`（已批准 OLR/OFLR 抗菌干预系统表）仍被 FSIS CDN 返回 403，未归档；查该系统清单须回官网。Rev.44 的 Table 3/4 页号不可沿用。
+- **源文档**：本卡头部所列 4 份 7120.1 主源 + 424 法规源 + 4 份辅助印证源
 - **蒸馏时间**：2026-11-12
-- **源文档**：本卡头部所列 3 份主源 + 4 份辅助印证源

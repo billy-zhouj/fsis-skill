@@ -42,7 +42,7 @@
 - 危害分析 9 页逐步骤把 **B/C/P 三类危害全部判 No**，依据写法值得照学： Salmonella 用「危害识别研究 + 产品须充分加热后食用 + 有暴发报道但加工中不 RLTO」；Salmonella outgrowth 用「工序时间短 + 符合 FDA《Fish and Fishery Products Hazards and Controls Guidance》Table A-2 (p.421) 时间温度参数 + 书面温度 SOP」；过敏原用「鲶鱼本身是过敏原、靠标签控制」；未申报过敏原用「供应商 LOG + 逐批进货核验 + 批准供应商计划」。
 - **脚注 15 的关键连带义务**：前提方案的结果若影响危害分析决策，其记录就是 §417.5(a) 的危害分析支撑文档；一旦企业以某前提方案（SSOP、卫生修整、采购规格、抗菌干预）为由判某危害 NRLTO，该方案**即成为 HACCP system 的一部分且必须验证**（须有设计的科学/技术支撑 + 厂内实施数据），并直接引用 FSIS-GD-2015-0011 p.5。
 - **脚注 22**：90 天初始验证期内，若科学支撑含微生物数据且工艺参数与文献一致，厂内数据可只采集可量化 COP（压力、温度、浓度）；若工艺参数与支撑不同、或支撑不含微生物数据，则还须采集厂内微生物数据或另找含微生物数据的支撑（FSIS-GD-2015-0011 p.27）。
-- **脚注 18 / 23 的 7120.1 边界**：FSIS Directive 7120.1《Safe and Suitable Ingredients》（含鲇形目专属准用表）可作**化学危害（安全性/适用性）**的支撑，**不能**作为控制**生物危害**的支撑——控制细菌所需抗菌剂浓度与安全适用浓度不同。脚注中的 `FCN# [insert number]` 是源文档占位符，企业须自行填入所用化合物的 FCN 编号。 现有一手源：`sources/FSIS-Directive-7120.1-Rev44-2017-Safe-Suitable-Ingredients.md`（历史版 Rev.44，含 19 处鲇形目条目与十种磷酸盐保水混合物）、`sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`（现行版 Rev.63 主指令）与 `sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md` p.5/p.27（NOL 与 7120.1 不含功效数据与全部 COP，单独作支撑属支撑不足）；方法与版本警示见 `ingredients-7120.1`。
+- **脚注 18 / 23 的 7120.1 边界**：FSIS Directive 7120.1《Safe and Suitable Ingredients》（含鲇形目专属准用表）可作**化学危害（安全性/适用性）**的支撑，**不能**作为控制**生物危害**的支撑——控制细菌所需抗菌剂浓度与安全适用浓度不同。脚注中的 `FCN# [insert number]` 是源文档占位符，企业须自行填入所用化合物的 FCN 编号。 现有一手源：`sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`（**现行 Rev.63 完整 Table 2，71 页，十组鲇形目磷酸盐保水混合物经核实全部沿用**）、`sources/FSIS-Directive-7120.1-Rev63-2026-Official-PDF.md`（现行主指令官方原件）、`sources/FSIS-Directive-7120.1-Rev44-2017-Safe-Suitable-Ingredients.md`（历史版 Rev.44）、`sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`（现行版 Rev.63 主指令转录）与 `sources/FSIS-Compliance-Guideline-HACCP-Systems-Validation-2015.md` p.5/p.27（NOL 与 7120.1 不含功效数据与全部 COP，单独作支撑属支撑不足）；方法与版本警示见 `ingredients-7120.1`。
 - 退回产品（第 18 步）：须先做退回产品评估 SOP，退回方证明温度与卫生状态，无法证明则拒收或销毁、开封包装不接收；接收时通知 FSIS 人员。
 
 ## 禽类屠宰模型要点（FSIS-GD-2020-0013）
@@ -61,7 +61,7 @@
 - **两份禽类模型别混**：本卡是 FSIS-GD-2020-0013（2020-11，适用 SIS/NELS/NTIS/Traditional）；另有 **FSIS-GD-2020-0012《HACCP Model for New Poultry Inspection System (NPIS) Poultry Slaughter》（2020-10）**，本包未收。NPIS 线速 140/55 bpm 见 `poultry-381`，但两者适用的检验系统不同。
 - **两份鲶鱼模型别混**：本卡是 FSIS-GD-2022-0006（**养殖** farm-raised）；姊妹篇 **FSIS-GD-2022-0007（野捕 wild-caught，同月）** 本包未收。中国输美等效目前仅涵盖生产品，见 `siluriformes-china`。
 - **§381.65(f) 不是 §381.65(g)**：可见粪便不得入冷却槽是 (f)，须写入 HACCP/SSOP/前提方案；(g) 是全程防污染书面程序 + 微生物采样。禽模型 CCP 1 的法定锚点是 (f)。
-- **7120.1 只支撑化学危害**：不能用准用表证明抗菌剂对病原体的控制效果（鲶鱼模型脚注 18）。另注意 **Rev.44（2017）已被 Rev.63（2026-11-10）取代**，用旧版准用表举证会直接出错（`ingredients-7120.1`）。
+- **7120.1 只支撑化学危害**：不能用准用表证明抗菌剂对病原体的控制效果（鲶鱼模型脚注 18）。另注意 **Rev.44（2017）已被 Rev.63（2026-11-10）取代**，用旧版准用表举证会直接出错；**现行完整 Table 2 已于 2026-11-12 归档**（`ingredients-7120.1`）。
 - **判定 RLTO=No 不是「免义务」**：前提方案随即并入 HACCP system 并须按两要素验证、留原始记录贯穿 life of the HACCP system（`hav-task-5000.6` Step 6.G）。
 
 ## 专家注记

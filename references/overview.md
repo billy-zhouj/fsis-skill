@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 35 份 sources / 20 张 capabilities）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 37 份 sources / 20 张 capabilities）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -123,7 +123,7 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **法律效力边界**：四份全部带 `guidance documents lack the force and effect of law` 免责声明，且通用模型另声明 "for demonstration purposes only / does not represent requirements that must be met"；模板、工作表、示例 CCP 与关键限值**不得写成法定义务或照抄**。法条锚点始终是 9 CFR 416 / 417 / 381。
 - **转换与校验**：PyMuPDF 按文本块/词坐标重建，表格按版面 y 行保序 + 矢量网格列边界切 GFM；catfish 的表格框线在文本层是 4.2–4.9pt 装饰字（正文最小 6.4pt），按字号精准剔除，并修正了「长虚线 span 的 bbox 横跨整行会误删同行正文」的缺陷。**四份合计 1965/1965 原文长句全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准，前三份零丢失、Guidebook 仅差 4 个封面装饰词。
 - **已知限制**：流程图页（catfish p.4 / poultry p.4 / Guidebook p.16、p.29）为矢量方框，文本层仅存散字，箭头走向不可恢复；跨页危害分析表按版面 y 行展开，未按逻辑行合并；poultry p.19 表头含源文档自带的 `Error! Bookmark not defined.`（Word 域错误），按原文保留。
-- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、FSIS-GD-2021-0005/0006 均未收（**Directive 7120.1 已于 0m 批收录**：Rev.44 历史版全文 + Rev.63 现行版主指令；现行完整 Table 2 仍待官网核对）（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
+- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、FSIS-GD-2021-0005/0006 均未收（**Directive 7120.1 已于 0m/0n 批全批收录**：Rev.44 历史版全文 + Rev.63 主指令官方原件 + 门户转录 + 完整 Table 2；仅 OLR/OFLR 表仍待官网核对）（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
 
 ## 0j. 2026-11-11 第五批补档：1996 PR/HACCP 最终规则（立法史层）
 
@@ -164,3 +164,13 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **边界核实**：7120.1 只支撑化学危害（安全性/适用性）、不能证明生物危害控制效果，与包内 GD-2015-0011（p.5/p.27：NOL 与 7120.1 不含功效数据与全部 COP）、GD-2022-0006 鲶鱼模型脚注 18、GD-2020-0013 禽模型、5000.6 Rev.2 四处表述一致，无一手表源的时代结束。
 - **已知缺口**：现行版两个完整清单 PDF 于 2026-11-12 被 FSIS CDN（Akamai，errors.edgesuite.net）返回 403，未能归档；Rev.44 的 19 处鲇形目条目在 Rev.63 是否沿用、限量有无变化**未核实**，已在能力卡与源 frontmatter 标注，引用前须回官网核对。
 - 能力卡 `capabilities/ingredients-7120.1.md`（十节：版本警钟 / 文件性质 / 三层结构 / 六列读法 / 鲇形目专属清单 / 四类 Reference / 只支撑化学危害 / 十条易错点 / 企业自检顺序 / 审计信息）。索引同步：SKILL.md、capability-index（未收清单移除、计数 35/20）、overview、labeling-412-424-317、haccp-generic-models。现为 35 份 sources / 20 张 capabilities。
+
+## 0n. 2026-11-12 第十批补档：Rev.63 官方原件与完整 Table 2（配料准用缺口闭合）
+
+- 用户连续补传两份官方 PDF：`directive 7120.1.63.pdf`（3 页主指令原件）与 `7120.1_table_2.pdf`（**71 页完整 Table 2**）。后者正是第九批因 FSIS CDN（Akamai）返回 403 未能抓取、被标为「已知待核缺口」的清单；**本次补档后，本包已能回答「某物质现行准不准用、限量多少」**。仅 `7120.1-olr-oflr-tables.pdf`（已批准 OLR/OFLR 抗菌干预系统表）仍未收。
+- 归档：`sources/FSIS-Directive-7120.1-Rev63-2026-Official-PDF.md`（3 页原件文本层）、`sources/7120.1-Table-2-Rev63-2026-Safe-Suitable-Ingredients.md`（71 页 / 1,852 行 / 322.7 KB，保留 71 个页标记与页眉页脚）。
+- **校勘三项**：① 官方主指令 PDF 的 `I. PURPOSE` **只有 A、B 两条**，第九批从门户转录的第 3 条「标签列改用大写字母」是网页附加说明、非 PDF 正文；QUESTIONS 段的 askFSIS URL 同样为门户补充。② 主指令与门户转录对撞：Table 1 五条更新的限量、接触时间、21 CFR 法条号 **24/25 项全命中**，转录可靠（唯一未连命中的短语是 PDF 表格列交错把文字拆散所致，非实质差异）。③ Table 2 文件头 `rev. 63 (November 2026)` 但 **71 页页脚全部是 `June, 2023`**，属模板遗留，版本判定以文件头为准。
+- **表结构变化**：Rev.63 Table 2 **新增首列 CATEGORY，共七列**（Rev.44 为六列）；LABELING REQUIREMENTS 编码由数字 (1)–(6) 改为大写字母 A–F，经 Rev.44 原文核实**按序一一对应**（1 加工助剂→A … 6 FCS→F）。
+- **原待核项已消**：Rev.63 中 "Siluriformes" 出现 31 次 / 30 个文本行，Moisture Retention 段（p.63–66）**十组磷酸盐保水混合物全部沿用**，AMOUNT 一律 Sufficient for purpose、21 CFR 依据与「按主次降序 + 子清单 + 磷酸盐可统称 sodium phosphate」标签要求均未变。单体条目按 CATEGORY 归位（Binders / Flavoring Agents / Moisture Retention / Acidifiers/Alkalizers）。
+- **新增边界**：Bacteriophage（E. coli STEC-targeted，GRN 834）可用鲇形目；Rice bran extract（GRN 884，≤1.2 percent）为磷酸盐替代品但仅限标准 of identity 允许的肉禽制品；**Transglutaminase enzyme preparation（GRN 1021）明确 `excluding Siluriformes fish products`，鲇形目禁用**；Table 2 不出现 "catfish"，物种命名规则在 9 CFR 541.7(d)。
+- 能力卡 `ingredients-7120.1` 重写 §一（缺口闭合）/ §三（结构图）/ §四（七列）/ §五（现行版已核实）/ §八（新增三条易错点）/ §九（可直接查包内 Table 2）/ §十（审计信息）。索引同步：SKILL.md、capability-index、overview、labeling-412-424-317、haccp-generic-models、siluriformes-china。现为 37 份 sources / 20 张 capabilities。
