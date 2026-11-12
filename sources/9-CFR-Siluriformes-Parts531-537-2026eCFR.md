@@ -249,3 +249,13 @@ Source:
 (b) The failure of an establishment to develop and implement a hazard analysis and a HACCP plan that comply with this part or to operate in accordance with the requirements of 9 CFR Chapter III, Subchapter E, will render the products produced under these conditions adulterated.
 § 537.3 Notification.
 Each official establishment must promptly notify the local FSIS District Office within 24 hours of learning or determining that an adulterated or misbranded fish product received by or originating from the official establishment has entered commerce, in accordance with the requirements of 9 CFR part 418.
+
+
+## 校勘补记（2026-11-12 · 第十二批补档）
+
+本件是技能包早期归档的 **Part 531 / 532 / 533 / 534 / 537 合并转录源**（无 frontmatter，正文共 251 行）。2026-11-12 用户补传这五个 Part 的 `9 CFR Part 53x (up to date as of 11-09-2026).pdf` 官方打印版，逐份以 workbuddy-pdf CLI `txt` 文本层对撞，结论：
+
+- **条号集合完全一致**：531（1 条）、532（5 条）、533（7 条）、534（4 条）、537（3 条），共 20 条，无增删。
+- **词集差异为零实质内容**：合并件相对五份 PDF 仅少 `mandatory / title` 两个词（来自 PDF 页眉的 Title 9 与 Subchapter F 全称），PDF 相对合并件无新增词；没有任何条文句子增删。
+- 因此本件与 **eCFR 2026-11-09 现行版条文一致**，继续作为 531–537 的引用底本；各能力卡引用的「第 13–29 行（§531.1 Adulterated 8 款）」等行号**保持有效**，本次未改动前文任何一行。
+- 五份官方 PDF 原件文本层未重复归档；同批另外 11 个缺失 Part（530 / 539 / 540 / 544 / 548 / 550 / 552 / 555 / 559 / 560 / 561）已单独归档为 `sources/9-CFR-Part-<编号>-*-2026eCFR.md`，加上此前已归档的 Part 541，**9 CFR Chapter III Subchapter F 全部 18 个有内容 Part 首次全部到齐**（Part 549 为 [Reserved]，其余编号为 eCFR 目录未列出的空号）。全章地图见 `references/capabilities/siluriformes-subchapter-f-530-561.md`。

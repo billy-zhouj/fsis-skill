@@ -1,14 +1,15 @@
 # 能力卡：鲇形目管辖与中国输美等效体系（深度专家版）
 
 > 来源（全部一手精读）：
-> - `sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`（531.1 / 532–534 / 537，eCFR 2026-10-29 现行）
-> - `sources/9-CFR-Part-557-Importation-2026eCFR.md`（557.1–557.26）
+> - `sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`（531.1 / 532–534 / 537，eCFR 现行；**2026-11-12 与 11-09 官方 PDF 逐词对撞一致**，见源末尾《校勘补记》）
+> - `sources/9-CFR-Part-557-Importation-2026eCFR.md`（557.1–557.26；**2026-11-12 与 11-09 官方 PDF 校勘，条文零差异**）
 > - `sources/9-CFR-Part-327-Imported-Products-2026eCFR.md`（327.2 外国等效体系框架）
 > - `sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md`（84 FR 59678 全案卷 21 页）
 > - `sources/GACC-Announcement-2019-No230.md`（海关总署公告 2019 年第 230 号）
 > - `sources/GACC-Annex-Catfish-Requirements-2019.md`（230 号公告附件）
 > - `sources/GACC-Inspection-Workbook-Annex1-US-Catfish-Special-Provisions.md`（中国海关官方检验员作业规程，执行层）
 > - `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`（鲇形目标记与标签专章，eCFR 2026-11-09，2026-11-12 补档；标签实体问题走 `labeling-412-424-317`）
+> - **9 CFR Chapter III Subchapter F 全章 18 个有内容 Part（eCFR 2026-11-09）已于 2026-11-12 全部到齐**：全章地图、转致链与迎检 12 步清单走 `capabilities/siluriformes-subchapter-f-530-561.md`；新增 11 份源 `sources/9-CFR-Part-530/539/540/544/548/550/552/555/559/560/561-*-2026eCFR.md`。其中 §544.1(a) 配料准用闸门、§548.5 RTE→430、§548.6 罐头→431、§550 记录→320、§552 美国出口证书→322.2、§561.1 程序→part 500；**§552 与 §559 不用于中国输美口岸，输美仍走 §557.4 / §557.6**
 > 体例：每条关键事实标注【源文件 + 条款/行号】。
 
 ---
@@ -106,5 +107,5 @@
 
 ## 审计信息
 - **质量核验**：事实回源通过：§533.1=Separation、§533.2=[Reserved]、§557.2(a) 引用 §327.2 子款、中国列名 §557.2(b)(1)、GACC 认证企业编号+口岸复检双死穴等陷阱处理正确，逐行引用源文件。（2026-11-04 逐卡 F1 事实回源，抽样命中源文件）
-- **蒸馏时间**：2026-11-03
-- **源文档**：`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-327-Imported-Products-2026eCFR.md`、`sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/GACC-Announcement-2019-No230.md`
+- **蒸馏时间**：2026-11-03；**2026-11-12 第十二批补档同步**：核对 Subchapter F 全章 18 个有内容 Part 的 eCFR 目录与 PDF 版本，确认 531–537 / 557 与 11-09 版条文零差异，补入全章地图卡与 11 份新源；本卡既有「第 13–29 行」「第 147 行」等行号引用保持有效。
+- **源文档**：`capabilities/siluriformes-subchapter-f-530-561.md`（全章地图与转致链）、`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-327-Imported-Products-2026eCFR.md`、`sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/GACC-Announcement-2019-No230.md`

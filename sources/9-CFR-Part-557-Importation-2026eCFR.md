@@ -1,8 +1,8 @@
 ---
-source: eCFR versioner API
-part: 9 CFR Part 557 (eCFR 2026-10-29)
-date: 2026-10-29
-archived: 2026-11-03 本地抓取（curl --compressed）
+source: eCFR versioner API；2026-11-12 与用户上传的 9 CFR Part 557 (up to date as of 11-09-2026).pdf 官方 PDF 逐词对撞，条文零差异
+part: 9 CFR Part 557 (eCFR 2026-11-09；本件正文抓取于 2026-10-29，经 11-09 版校勘确认一致)
+date: 2026-11-09（校勘确认的现行版日期；原抓取日 2026-10-29）
+archived: 2026-11-03 本地抓取（curl --compressed）；2026-11-12 补做 11-09 官方 PDF 对撞校勘
 ---
 
 # PART 557—IMPORTATION
@@ -187,3 +187,13 @@ Disposition procedures for condemned fish or fish products ordered destroyed und
 # § 557.26 Official import inspection marks and devices.
 
 The official inspection legend and other marks to be applied to imported fish and fish products are as required by 9 CFR 327.26 for meat food products prepared from cattle, sheep, swine, and goats.
+
+
+## 校勘补记（2026-11-12 · 第十二批补档）
+
+本件原按 eCFR versioner API 于 2026-11-03 抓取 **2026-10-29** 版。2026-11-12 用户补传 `9 CFR Part 557 (up to date as of 11-09-2026).pdf`（7 页，eCFR 官方打印版），以 workbuddy-pdf CLI `txt` 文本层对撞，结论：
+
+- **条号集合完全一致**：§557.1–557.19、557.24、557.25、557.26 共 22 条，两版无增删（§557.9 为 [Reserved]、557.20–557.23 为目录跳号，均非新条文）。
+- **词集差异为零实质内容**：旧件多出的词仅 `api / archived / compressed / curl / ecfr / versioner`（本件 frontmatter 自述），新 PDF 多出的词仅 `animal / animals / mandatory / order / siluriformes / title`（eCFR 页眉 Title 9 / Subchapter F 标题）。没有任何条文句子增删。
+- 因此 **10-29 → 11-09 只是日期刷新，条文未修订**；本件正文继续作为 Part 557 的引用底本，各能力卡中的「第 147 行」等行号引用保持有效。
+- 官方 PDF 原件文本层见同批归档的 17 份 PDF 提取结果；本件不再重复存档。全章地图见 `references/capabilities/siluriformes-subchapter-f-530-561.md`。
