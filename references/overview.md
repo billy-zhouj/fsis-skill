@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 32 份 sources / 19 张 capabilities）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 33 份 sources / 19 张 capabilities）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -145,3 +145,12 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **同步修正**：`SKILL.md`（触发词、路由、条款直达、缺口清单、陷阱表）、`poultry-381`（旧规从 A/B 两款扩为 A–H 八款）、`haccp-generic-models`（45 °F/6 h 来源改为「脚注 32 自述」并补 p.6 差异）、`pr-haccp-1996-legislative-history`（三条路径表、审计缺口与关联卡）、`capability-index`（新增专行、删去「全文未收」）、`FSIS-GD-2020-0013` 源文档 frontmatter，共 21 处精确替换，均以英文原版为准；此前基于官网中文版摘要写入的数值已核对收紧。
 - **法律效力边界**：本件页脚明示 `Guidance documents lack the force and effect of law`，自述代表 FSIS 当前想法、自发布起可用，曾设 60 天评论期；**不新增法定义务**。A–H 与 SIP 任一组数字都只是 FSIS 认可的举证方式，**不得写成法定限值**；法条锚点始终是 §381.66(b)(3) 书面程序 + 防病原增殖，以及 §381.65(f)(g)、§416.2(g)、§381.94 与 9 CFR 417。
 - **相邻缺口**：官方中文译本、2014 年 79 FR 49634 最终规则 preamble 全文、各企业 SIP 批准程序完整清单（指南只列四条常见示例）未收；详见 capability-index 末尾清单。
+
+## 0i. 2026-11-12 Part 541 补齐存档（eCFR 2026-11-09）
+
+- 用户提供 4 页 PDF《9 CFR Part 541 (up to date as of 11-09-2026).pdf》，以 eCFR versioner API 同日期结构化 XML 为主、PDF 逐条对撞，归档为 `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`（6 条全文 + 中文校勘注记）。
+- **补齐的是此前标注的真实缺口**：230 号公告附件与作业指导书附1-4 都引用 541，但包内原无一手条文；`capability-index` 原把「539–541」列为不覆盖，与 `gacc-inspection-workbook` 把 541 当依据引用自相矛盾。本次一并消解。
+- **修订依据链**：317 subpart A / subpart B / 412 对鱼的适用经 **§541.7(a)(f)(g)** 转致，非直接适用；`labeling-412-424-317` 原写「鲶鱼标签走 317/319 体系」结论碰巧对、依据链缺失，已重写「与输美鲶鱼的关系」整节。
+- **新增鲇形目专属规则**：§541.7(d)(1) 鱼种常用名 basa / swai / tra / sutchi；(d)(2) 仅 Icataluridae 科可用 "catfish"（附1-4 的法源）；(c) 安全处理说明换词与图形；(e) 441/442 保水净重、冷冻鱼须标解冻后 100% 净重并按 NIST HB133 Ch.2 §2.6 抽样。
+- **校勘发现**：eCFR PDF 把 §541.4 正文 (a)(b) 错位并入 §541.7 标题下，已按结构化 XML 归位；eCFR 的 Authority 字段自身重复「21 U.S.C.」；§541.6 条号根本不存在；法规原文另有 Icataluridae / Pangasionodon 两处拼写笔误。详见源末尾校勘注记。
+- 能力卡同步：`labeling-412-424-317`（重写的鲶鱼节 + 541 法定依据段）、`gacc-inspection-workbook`（附1-4 法源锚点）。现为 33 份 sources / 19 张 capabilities。

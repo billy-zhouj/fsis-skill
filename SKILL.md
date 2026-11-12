@@ -1,9 +1,9 @@
 ---
 name: fsis
-description: 来自 USDA FSIS 法规与指令（9 CFR 416/417/531–537 + FSIS Directive 5000.1 Rev.8 / 5000.4 Rev.3 / 5000.5 Rev.3）的肉禽与鲇形目食品安全方法论路由入口。当用户的问题涉及 SSOP 卫生体系、FSIS HACCP、驻厂检查（IPP）验证任务、不符合项与执法阶梯、开工前卫生检查选点、鲇形目（catfish/巴沙鱼/叉尾鮰）管辖判定、中国输美鲶鱼等效体系、FDA 与 USDA 双管辖厂体系搭建，但不明确指向某一个具体子任务时，用本入口按意图路由到对应能力卡。触发词：SSOP / 416 / 417 / FSIS / USDA / IPP / 驻厂检查 / U.S. Rejected 封签 / HACCP（FSIS 语境）/ 鲇形目 / 鲶鱼输美 / catfish / Siluriformes / 等效性 equivalence / 一厂两制 / 双管辖 / Rules of Practice / pre-op 卫生检查 / 低频卫生 LTD less than daily / 标签审批 labeling / 通用批准 generic label / 标签送审 / 配料准入 / 海关总署 230 号公告 / 输美备案推荐注册 / 官方检验员 / 驻厂检验频次 / 每班次 8 小时 / 生产计划提前 3 天报备 / 开工前卫生验证 / 装运前检查 / 附1-6 官方检验记录 / 附1-7 开工前验证记录 / 附1-8 装运前验证记录 / 物种形态鉴定 / 掺杂物错贴标签定义 / 屠宰检验剖检 post-mortem / 线速 line speed / U.S. Retained / SRM 疯牛病 / E. coli 检测 / 禽类 poultry / NPIS 线速 / 9 CFR 381 / 禽类营养标签 381.400 / ratites 走禽 / 含禽配料豁免 / 蛋制品 egg products / 蛋液蛋粉输美 / restricted eggs / HACCP 初始验证 initial validation / 科学支撑 scientific support / 关键操作参数 COP / 90 天 / 厂内验证数据 in-plant validation data / 前提方案验证 prerequisite program / FSIS-GD-2015-0011 / HAV 危害分析验证 / Hazard Analysis Verification / 5000.6 / NRLTO 支撑不足 / 前提方案要不要留记录 / 60 个生产日 / 13 个生产日 / life of the HACCP system / EIAO / Guidebook / FSIS-GD-2020-0008 / HACCP 计划怎么写 / 预备五步 / 七原则 / 加工类别九类 / CCP 判定树 / 工作表 worksheet / 鲇形目算不算 slaughter 类 / ground not ground / SSOP 模板 / FSIS-GD-2020-0009 / 再调理 reconditioning / 开工前感官检查 / 通用 HACCP 模型 / generic HACCP model / 能不能照抄模型 / 鲶鱼 HACCP 模型 / FSIS-GD-2022-0006 / 禽类屠宰 HACCP 模型 / FSIS-GD-2020-0013 / 金属探测 CCP / 600-700 ppm / 45 °F 6 小时 / 零粪便 zero fecal / NPIS 模型 / 7120.1 准用表 / 家禽冷却 chilling / 381.66 / 40 °F 4 小时 / 45 °F 6 小时是不是法定限值 / safe harbor / SIP waiver / Salmonella Initiative Program / 旧规 A–H 八款 / 44 °F 6 小时 / 45 °F 16 小时 / 冷却器出口 / FSIS-GD-2014-0014 冷却指南 / 1996 PR-HACCP 最终规则 / 61 FR 38805 / Docket 93-016F / 立法原意 / 条款沿革 / HACCP 生效时间表 / 旧沙门氏菌性能标准 / cooling and chilling requirements。
+description: 来自 USDA FSIS 法规与指令（9 CFR 416/417/531–537 + FSIS Directive 5000.1 Rev.8 / 5000.4 Rev.3 / 5000.5 Rev.3）的肉禽与鲇形目食品安全方法论路由入口。当用户的问题涉及 SSOP 卫生体系、FSIS HACCP、驻厂检查（IPP）验证任务、不符合项与执法阶梯、开工前卫生检查选点、鲇形目（catfish/巴沙鱼/叉尾鮰）管辖判定、中国输美鲶鱼等效体系、FDA 与 USDA 双管辖厂体系搭建，但不明确指向某一个具体子任务时，用本入口按意图路由到对应能力卡。触发词：SSOP / 416 / 417 / FSIS / USDA / IPP / 驻厂检查 / U.S. Rejected 封签 / HACCP（FSIS 语境）/ 鲇形目 / 鲶鱼输美 / catfish / Siluriformes / 等效性 equivalence / 一厂两制 / 双管辖 / Rules of Practice / pre-op 卫生检查 / 低频卫生 LTD less than daily / 标签审批 labeling / 通用批准 generic label / 标签送审 / 配料准入 / 海关总署 230 号公告 / 输美备案推荐注册 / 官方检验员 / 驻厂检验频次 / 每班次 8 小时 / 生产计划提前 3 天报备 / 开工前卫生验证 / 装运前检查 / 附1-6 官方检验记录 / 附1-7 开工前验证记录 / 附1-8 装运前验证记录 / 物种形态鉴定 / 掺杂物错贴标签定义 / 屠宰检验剖检 post-mortem / 线速 line speed / U.S. Retained / SRM 疯牛病 / E. coli 检测 / 禽类 poultry / NPIS 线速 / 9 CFR 381 / 禽类营养标签 381.400 / ratites 走禽 / 含禽配料豁免 / 蛋制品 egg products / 蛋液蛋粉输美 / restricted eggs / HACCP 初始验证 initial validation / 科学支撑 scientific support / 关键操作参数 COP / 90 天 / 厂内验证数据 in-plant validation data / 前提方案验证 prerequisite program / FSIS-GD-2015-0011 / HAV 危害分析验证 / Hazard Analysis Verification / 5000.6 / NRLTO 支撑不足 / 前提方案要不要留记录 / 60 个生产日 / 13 个生产日 / life of the HACCP system / EIAO / Guidebook / FSIS-GD-2020-0008 / HACCP 计划怎么写 / 预备五步 / 七原则 / 加工类别九类 / CCP 判定树 / 工作表 worksheet / 鲇形目算不算 slaughter 类 / ground not ground / SSOP 模板 / FSIS-GD-2020-0009 / 再调理 reconditioning / 开工前感官检查 / 通用 HACCP 模型 / generic HACCP model / 能不能照抄模型 / 鲶鱼 HACCP 模型 / FSIS-GD-2022-0006 / 禽类屠宰 HACCP 模型 / FSIS-GD-2020-0013 / 金属探测 CCP / 600-700 ppm / 45 °F 6 小时 / 零粪便 zero fecal / NPIS 模型 / 7120.1 准用表 / 家禽冷却 chilling / 381.66 / 40 °F 4 小时 / 45 °F 6 小时是不是法定限值 / safe harbor / SIP waiver / Salmonella Initiative Program / 旧规 A–H 八款 / 44 °F 6 小时 / 45 °F 16 小时 / 冷却器出口 / FSIS-GD-2014-0014 冷却指南 / 1996 PR-HACCP 最终规则 / 61 FR 38805 / Docket 93-016F / 立法原意 / 条款沿革 / HACCP 生效时间表 / 旧沙门氏菌性能标准 / cooling and chilling requirements / 9 CFR 541 / 541.7 / 鲶鱼标签 / catfish 能不能印 / basa swai tra sutchi / 鱼种常用名 / 解冻后 100% 净重 / 包冰衣净重 / 317 对鱼怎么适用 / 标签转致条款。
 metadata:
   cangjie.bundle-id: usda-fsis-regulatory
-  cangjie.source: 9 CFR 416/417/531-537 (eCFR 2026-10-29) + FSIS Directive 5000.1 Rev.8 (2025-01-10) + 5000.4 Rev.3 (2021-10-14) + FR 2019-24055 + FSIS China FY23 audit + 9 CFR 557 & 21 CFR 117/123（源缺口补齐 2026-11-03） + 9 CFR 381（eCFR 2026-11-09，2026-11-11 补齐禽类缺口） + FSIS Compliance Guideline HACCP Systems Validation（FSIS-GD-2015-0011，2015-04，2026-11-11 补档） + FSIS Directive 5000.6 Rev.2（HAV 任务，2018-06-29，2026-11-11 补档） + FSIS-GD-2020-0008/0009/0013（HACCP 计划编写指南 / SSOP 模板 / 禽类屠宰通用模型，2020-10~11）+ FSIS-GD-2022-0006（养殖鲶鱼通用模型，2022-08）（四份指南与模型 2026-11-11 补档） + 61 FR 38805《Pathogen Reduction; HACCP Systems; Final Rule》（Docket 93-016F，1996-07-25，185 页，立法史一手文献，2026-11-11 补档） + 海关总署《出口水产品检验检疫监管作业指导书》附1《出口美国鲶鱼产品特殊规定》（中国官方检验员作业规程 + 附1-1~1-8 八个附表，2026-11-12 补档）
+  cangjie.source: 9 CFR 416/417/531-537 (eCFR 2026-10-29) + FSIS Directive 5000.1 Rev.8 (2025-01-10) + 5000.4 Rev.3 (2021-10-14) + FR 2019-24055 + FSIS China FY23 audit + 9 CFR 557 & 21 CFR 117/123（源缺口补齐 2026-11-03） + 9 CFR 381（eCFR 2026-11-09，2026-11-11 补齐禽类缺口） + FSIS Compliance Guideline HACCP Systems Validation（FSIS-GD-2015-0011，2015-04，2026-11-11 补档） + FSIS Directive 5000.6 Rev.2（HAV 任务，2018-06-29，2026-11-11 补档） + FSIS-GD-2020-0008/0009/0013（HACCP 计划编写指南 / SSOP 模板 / 禽类屠宰通用模型，2020-10~11）+ FSIS-GD-2022-0006（养殖鲶鱼通用模型，2022-08）（四份指南与模型 2026-11-11 补档） + 61 FR 38805《Pathogen Reduction; HACCP Systems; Final Rule》（Docket 93-016F，1996-07-25，185 页，立法史一手文献，2026-11-11 补档） + 海关总署《出口水产品检验检疫监管作业指导书》附1《出口美国鲶鱼产品特殊规定》（中国官方检验员作业规程 + 附1-1~1-8 八个附表，2026-11-12 补档） + 9 CFR Part 541（eCFR 2026-11-09 现行版，鲇形目标记与标签专章，6 条全文，2026-11-12 补档）
   restored-from: 本会话转换与核实（2026-11-02 用户上传 PDF 蒸馏建包）
 ---
 
@@ -28,6 +28,7 @@ metadata:
 5. 鲇形目（整目，含巴沙鱼/塘鲺）2008 年被划入 USDA；同一间厂鲶鱼线走 9 CFR、罗非鱼线走 FDA 123+117——中国输美厂的形式是"一个监工（属地海关）、两套标准"。
 6. 等效机制 = 美国规则 + 本国裁判 + FSIS 审计裁判：FSIS 不派员驻华，靠周期审计（六大等效组件）+ 口岸复检维持认定。
 7. 中国侧的"裁判"具体是谁、怎么吹哨：**属地海关官方检验员按《出口水产品检验检疫监管作业指导书》附1 执行**——每生产班次至少 1 次且班次不超 8 小时、企业须提前 3 天报生产计划且不得频繁改动、检验员随机指派并设后备、开工前卫生与装运前检查各每月至少验证 1 次、三个环节各填一张官方记录表（附1-6/1-7/1-8）。企业迎检按这三张表当自检清单对齐，命中率最高。
+8. 鲶鱼标签的适用链：**317/412 不直接管鱼**——经 §541.7(a)(f)(g) 转致才适用 317 subpart A / subpart B / 412；§541.7(d)(1)(2) 另有鱼种常用名（basa/swai/tra/sutchi）与 "catfish" 仅限鮰科的专属规则，§541.7(e) 管保水与解冻后 100% 净重。答"鲶鱼标签走 317"结论碰巧对，但依据链断了。
 
 ## 能力路由（先读本表，按意图加载 1 张能力卡）
 
@@ -43,7 +44,7 @@ metadata:
 | FSIS 检查员日常验证怎么做；迎审准备；NR 记录与系统性问题；执法阶梯（贴签→拒标志→停业→NOIE）；E. coli 测试 | references/capabilities/fsis-verification-5000.1.md | 原文查 sources/FSIS-Directive-5000.1-Rev8-2025.md |
 | 开工前检查选点逻辑；高风险设备六特征；organoleptically clean；LOTO；MOI 时间约定 | references/capabilities/preop-ssop-5000.4.md | 原文查 sources/FSIS-Directive-5000.4-Rev3-2021.md（2026-11-02 已换干净版） |
 | 加工企业能不能隔几天大扫除；LTD 低频卫生；屠宰禁 LTD；LTD 验证逻辑与等效举证；APC/基线/SPC 证明卫生有效 | references/capabilities/ltd-sanitation-5000.5.md | 原文查 sources/FSIS-Directive-5000.5-Rev3-2021.md |
-| 标签要不要送审；通用批准条件；八项强制特征；特殊声明边界；Product of USA；出口外文标签（317.7）；配料准用/禁用 | references/capabilities/labeling-412-424-317.md | 原文查 sources/9-CFR-Part-412/424/317；禽类标签实体条款在 381 Subpart M/N/Y（已收录），见 poultry-381 |
+| 标签要不要送审；通用批准条件；八项强制特征；特殊声明边界；Product of USA；出口外文标签（317.7）；配料准用/禁用；**鲶鱼/巴沙鱼标签（541.7 转致、catfish 能不能印、basa/swai、解冻后 100% 净重）** | references/capabilities/labeling-412-424-317.md | 原文查 sources/9-CFR-Part-412/424/317/541；鲇形目标签专章 541 已收录，桥接链见 §541.7(a)(f)(g)；禽类标签实体条款在 381 Subpart M/N/Y，见 poultry-381 |
 | 屠宰后检验：线速、剖检、U.S. Retained/Condemned、SRM 疯牛病风险物质、食用血液、E. coli 过程控制、沙门氏菌性能标准 | references/capabilities/postmortem-310.md | 原文查 sources/9-CFR-Part-310-PostMortem-2026eCFR.md；禽类剖检/线速/冷却见 poultry-381 |
 | 禽类检验：NPIS 等六种剖检系统、140·55 bpm 线速、381.66 冷却与冷冻、禽类官方标记、标签与营养标签、记录期、进口等效、含禽配料豁免 | references/capabilities/poultry-381.md | 原文查 sources/9-CFR-Part-381-Poultry-2026eCFR.md（211 条/25 分部）；畜类对照看 postmortem-310；**现行 381.66(b) 无 40 °F/4·6·8 h 数值**，旧表 2014 年已删，见陷阱表；冷却合规三路径与全部 safe harbor 数值见 chilling-requirements-2014 |
 | 1996 PR/HACCP 最终规则立法史：416/417 创立原意与逐条答复、HACCP 分规模生效时间表、1996 年 E. coli 与 Salmonella 性能标准原始数值、冷却时间温度提案为何未采纳、Appendix E 早期危害分析示例、条款沿革与旧数字溯源 | references/capabilities/pr-haccp-1996-legislative-history.md | 原文查 sources/61-FR-38805-PRHACCP-Final-Rule-1996.md（61 FR 38805，Docket 93-016F，185 页，**历史文本非现行法规**）；现行义务回 eCFR 源与对应能力卡 |
@@ -60,6 +61,7 @@ metadata:
 | 条款/指令 | 覆盖内容 | 去向 |
 |---|---|---|
 | § 412 / 317 / 424（标签与配料） | 标签审批、强制特征、出口外文、配料准入 | labeling-412-424-317 |
+| § 541（鲇形目标记与标签专章，6 条）/ § 541.7 | 317A/317B/412 经 541.7(a)(f)(g) 转致适用于鱼；541.7(d)(1)(2) 鱼种常用名与 catfish 仅限 Icataluridae 科；541.7(c)(e) 安全处理说明换词、441/442 保水与解冻后 100% 净重；541.2–541.5 官方图记/封签/出口标志/扣留标记 | labeling-412-424-317；原文查 sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md |
 | § 310（屠宰后检验） | 剖检、线速、SRM、E. coli/沙门氏菌性能标准 | postmortem-310 |
 | § 381（禽类产品检验） | 六种剖检系统、NPIS 线速、381.66 冷却、381.94 ratites E. coli、Subpart M/N/Y 标签与营养标签、381.196 进口等效 | poultry-381 |
 | § 590（蛋制品） | 连续检验、冷链、记录、进口等效 | egg-products-590 |
@@ -88,7 +90,7 @@ metadata:
 | FSIS-GD-2020-0008 / 0009 | HACCP 计划编写指南 / SSOP 模板（均 2020-10，无法律效力） | haccp-plan-guidebook / ssop-model-2020 |
 | FSIS-GD-2014-0014 / SIP waiver | 冷却合规三条路径、旧规 A–H 八款、SIP 四条示例（44 °F/6 h、45 °F/16 h、≤44 °F、44 °F/4 h）、2014-10-20 后不再需要 waiver、45 °F/6 h 不在指南示例内 | chilling-requirements-2014；原文查 sources/FSIS-GD-2014-0014-Chilling-Requirements-Compliance-Guide.md（无法律效力） |
 | FSIS-GD-2020-0013 / 2022-0006 | 禽类屠宰 / 养殖鲶鱼通用 HACCP 模型（示范用，不可照抄） | haccp-generic-models |
-| 9 CFR 412 / 317 / 424 | 标签审批与配料准入 | labeling-412-424-317 |
+| 9 CFR 412 / 317 / 424 / 541 | 标签审批与配料准入；541 为鱼及鱼制品的转致与专属规则 | labeling-412-424-317 |
 | 9 CFR 310 | 屠宰后检验与微生物性能标准 | postmortem-310 |
 | 9 CFR 381 | 禽类产品检验全套（PPIA，211 条/25 分部） | poultry-381 |
 | 9 CFR 590 | 蛋与蛋制品检验（EPIA） | egg-products-590 |
@@ -133,6 +135,7 @@ curl -sL --compressed "https://www.ecfr.gov/api/versioner/v1/full/2026-10-29/tit
 
 ## 高频陷阱（已踩过/已核实）
 
+- **鲶鱼标签不是"直接适用 317"**：317 subpart A/B 与 412 对鱼及鱼制品的适用，法源是 **§541.7(a)(f)(g)** 的转致条款；§541.7(d)(1)(2) 另有鲇形目专属的鱼种常用名（basa / swai / tra / sutchi）与 "catfish" 仅限 Icataluridae 科。只答"走 317/319"结论碰巧对但依据链断裂，被追问"凭什么适用 317"会答不上（9 CFR Part 541，2026-11-12 补）。
 - **"catfish"是目级定义**（order Siluriformes）——写"只有叉尾鮰归 USDA"是错的；巴沙鱼、塘鲺都中招。
 - **中国输美鲶鱼仅生产品**——写"熟制鲶鱼可输美"错（FY23 审计资格表确认：raw intact / raw non-intact 两类）。
 - **等效 ≠ FSIS 派驻**——中国厂由属地海关承担官方检验，FSIS 只做周期审计+口岸复检；"FSIS 检查员驻厂"只在美国国内成立。

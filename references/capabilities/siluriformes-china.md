@@ -8,6 +8,7 @@
 > - `sources/GACC-Announcement-2019-No230.md`（海关总署公告 2019 年第 230 号）
 > - `sources/GACC-Annex-Catfish-Requirements-2019.md`（230 号公告附件）
 > - `sources/GACC-Inspection-Workbook-Annex1-US-Catfish-Special-Provisions.md`（中国海关官方检验员作业规程，执行层）
+> - `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`（鲇形目标记与标签专章，eCFR 2026-11-09，2026-11-12 补档；标签实体问题走 `labeling-412-424-317`）
 > 体例：每条关键事实标注【源文件 + 条款/行号】。
 
 ---
@@ -99,9 +100,10 @@
 
 - **违规下场案例（警示）**：2021-12 FSIS 公众警示——中国产产品包装无合规认证企业编号、未提交口岸复检即入流通，联合 CBP/APHIS 立案，判 ineligible（不得进入美国商业流通），提示消费者销毁。两个死穴：**认证编号真实可溯** + **货批主动报口岸复检**。
 - **边界**：本卡不覆盖 FDA 水产品 HACCP 细节、APHIS 动物健康限制（9 CFR 94.6 禽类）、美国国内鲶鱼养殖监管。等效资格/认证企业清单/产品范围**动态变化**，每次使用前回 FSIS 官网 "Eligible Foreign Establishments – China" 与 import library 核对最新状态，勿依赖本卡静态记忆。
+- **标签问题另见** `labeling-412-424-317`：鲇形目标签的美国法源是 **9 CFR Part 541**（Subchapter F 专章），317 subpart A/B 与 412 经 **§541.7(a)(f)(g)** 转致才适用于鱼；鱼种常用名（basa/swai/tra/sutchi）与 "catfish" 仅限鮰科见 **§541.7(d)**，保水与解冻后 100% 净重见 **§541.7(e)**。230 号公告附件与作业指导书附1-4 均引用 541，本卡不重复展开。
 - **中国侧执行层另见** `gacc-inspection-workbook`：本卡讲"依据什么、原理是什么"（管辖、等效、产品范围、出口连续性）；执行层讲"海关具体怎么查、多久一次、填哪张表"（检验员资质与频次、监管十环节、附1-6/1-7/1-8 三张记录表）。用户问"迎检要怎么准备"时 **两张一起加载**。
 
 ## 审计信息
 - **质量核验**：事实回源通过：§533.1=Separation、§533.2=[Reserved]、§557.2(a) 引用 §327.2 子款、中国列名 §557.2(b)(1)、GACC 认证企业编号+口岸复检双死穴等陷阱处理正确，逐行引用源文件。（2026-11-04 逐卡 F1 事实回源，抽样命中源文件）
 - **蒸馏时间**：2026-11-03
-- **源文档**：`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-327-Imported-Products-2026eCFR.md`、`sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/GACC-Announcement-2019-No230.md`
+- **源文档**：`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-327-Imported-Products-2026eCFR.md`、`sources/FR-2019-24055-PRC-Siluriformes-Eligibility.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/GACC-Announcement-2019-No230.md`

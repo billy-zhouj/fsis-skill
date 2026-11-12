@@ -221,6 +221,9 @@
 9. 装淡水产品时容器先加适合温度的水，水质符合**《国家渔业水质标准》GB 11607**。
 
 ### 附1-4 标签要求 —— 主版面/信息版面九项分配
+
+> **法源锚点（2026-11-12 补一手条文）**：附1-4 整套标签要求的美国法源是 **9 CFR Part 541**（鲇形目 Subchapter F 的标记与标签专章，全文见 `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`）。九项分配经 **§541.7(a) → part 317 subpart A** 转致；营养标签经 **§541.7(f) → part 317 subpart B**（下表所引 317.400 豁免即在这条链上）；标签审批经 **§541.7(g) → part 412**；鱼种常用名与 "Catfish" 限制是 **§541.7(d)(1)(2)** 的鲇形目专属规则；安全处理说明换词见 **§541.7(c)**；净重与加工滞留水见 **§541.7(e) → 441/442**。附1-4 是这些法条的中国侧执行口径，对外法律意见须回 541 原文（详见 `labeling-412-424-317`）。
+
 | 位置 | 内容 | 适用产品 |
 |---|---|---|
 | 主版面 | 产品名称 | 所有产品 |
@@ -234,14 +237,14 @@
 | 主版面或信息版面 | 安全处理说明 | 非即食产品 |
 
 **四条硬规则**【本件 附1-4】：
-1. **只有鮰科（Ictaluridae）可标 "Catfish"**；非鮰科须标美国商品名/俗名，如 "Basa"、"Swai"、"Giant Pangasius"。→ 巴沙鱼标 "Catfish" 即为错贴标签，是最常见的致命错误。
+1. **只有鮰科（Ictaluridae）可标 "Catfish"**；非鮰科须标美国商品名/俗名，如 "Basa"、"Swai"、"Giant Pangasius"。→ 巴沙鱼标 "Catfish" 即为错贴标签，是最常见的致命错误。**法源 §541.7(d)(2)**（原文 "only of fish and fish products within the family Icataluridae may bear the term catfish"，科名 Icataluridae 为法规原文笔误，正确 Ictaluridae）；**§541.7(d)(1)** 另给出强制鱼种常用名——*Pangasius bocourti* → "basa"，*Pangasius hypophthalmus* / *Pangasionodon hypophthalmus* → "swai" / "tra" / "sutchi"，比附1-4 的举例更精确，标签上应优先按 541 原文取值。
 2. 原产国标在**产品名称正下方**，以 **"product of"** 开头。
 3. 生制产品添加其他成分的，须有描述性文字并按**主→次降序**列全部成分常用名，例："Contains 10% added solution of water, salt, phosphates…"。
 4. 易腐败产品的处理声明四选一："Keep Refrigerated" / "Keep Frozen" / "Keep Refrigerated or Frozen" / "Previously Handled Frozen For Your Protection - Refreeze or Keep Refrigerated"。
 
 **运输包装**：英文标原产国、生产企业备案编号、产品名称、生产批号；易腐或需特别处理的加处理声明；**为 USDA 加施进口检验标志留足空间**；若产品包装即运输包装，须同时满足两类要求【本件 附1-4 三】。
 
-**标签批准**：配方变化导致不再按含量降序、或有特殊声明（"all natural"、"no antibiotics administered"）的，须报 FSIS 标签审核项目组批准【本件 附1-4 四；法条 §557.14 + 9 CFR 412】。
+**标签批准**：配方变化导致不再按含量降序、或有特殊声明（"all natural"、"no antibiotics administered"）的，须报 FSIS 标签审核项目组批准【本件 附1-4 四；法条 §557.14 + §541.7(g) → 9 CFR 412】。
 
 ### 附1-5 掺杂与错贴标签 —— 官方明示"直接采纳 §531.1"
 原文："为保障输美鲶鱼产品监管体系与美国等效，**直接采纳**美国农业部《鲶形目鱼类及其产品强制检验》最终法规 **§531.1** 章节中关于掺杂和错贴标签的定义"【本件 附1-5】。
@@ -285,5 +288,6 @@
 
 ## 审计信息
 - **质量核验（2026-11-12）**：附1-5 所称"直接采纳 §531.1"已逐条比对 `sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md` 第 13–29 行（Adulterated 8 款）与第 86–98 行（Misbranded 12 款），**措辞与分款结构完全对应**，官方表述属实。附1-4 引用的 317.400 营养标签豁免在 `sources/9-CFR-Part-317-Meat-Labeling-2026eCFR.md` 第 319 行有原文印证。9 CFR 534.2/534.3/534.4 条款标题（水质/用药标准/运输）与源文件第 230–237 行一致。附1-2 学名拼写错误已标注并给出正确学名。
+- **质量核验补记（2026-11-12 同日补档 Part 541）**：附1-4 整套要求的美国法源已核实为 **9 CFR Part 541**（eCFR 2026-11-09 全文已收）。"Catfish 仅限鮰科"对应 **§541.7(d)(2)**，鱼种常用名对应 **§541.7(d)(1)**，营养标签与标签审批分别经 **§541.7(f)(g)** 转致 part 317 subpart B / part 412，安全处理说明与保水净重见 **§541.7(c)(e)**。另 `sources/9-CFR-Part-557-Importation-2026eCFR.md` 第 147 行可交叉印证：进口罐装/包装鱼不论标签是否按 §541.7 批准，均按 §327.12 抽样检验。详见 `labeling-412-424-317`。
 - **蒸馏时间**：2026-11-12
-- **源文档**：`sources/GACC-Inspection-Workbook-Annex1-US-Catfish-Special-Provisions.md`（主源）、`sources/GACC-Announcement-2019-No230.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-317-Meat-Labeling-2026eCFR.md`
+- **源文档**：`sources/GACC-Inspection-Workbook-Annex1-US-Catfish-Special-Provisions.md`（主源）、`sources/GACC-Announcement-2019-No230.md`、`sources/GACC-Annex-Catfish-Requirements-2019.md`、`sources/9-CFR-Siluriformes-Parts531-537-2026eCFR.md`、`sources/9-CFR-Part-557-Importation-2026eCFR.md`、`sources/9-CFR-Part-317-Meat-Labeling-2026eCFR.md`、`sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`
