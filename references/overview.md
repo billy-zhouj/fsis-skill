@@ -1,6 +1,6 @@
 # 文档概览（阶段 0 整书理解）
 
-本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 33 份 sources / 19 张 capabilities）：
+本技能的一手来源谱系（2026-11-02 建包，此后逐批补档；截至 2026-11-12 共 35 份 sources / 20 张 capabilities）：
 
 ## 6. FSIS《Sanitation Performance Standards Compliance Guide》（页面更新 2016-03-04）
 
@@ -123,7 +123,7 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **法律效力边界**：四份全部带 `guidance documents lack the force and effect of law` 免责声明，且通用模型另声明 "for demonstration purposes only / does not represent requirements that must be met"；模板、工作表、示例 CCP 与关键限值**不得写成法定义务或照抄**。法条锚点始终是 9 CFR 416 / 417 / 381。
 - **转换与校验**：PyMuPDF 按文本块/词坐标重建，表格按版面 y 行保序 + 矢量网格列边界切 GFM；catfish 的表格框线在文本层是 4.2–4.9pt 装饰字（正文最小 6.4pt），按字号精准剔除，并修正了「长虚线 span 的 bbox 横跨整行会误删同行正文」的缺陷。**四份合计 1965/1965 原文长句全量命中、同口径词袋零丢失**；以未做任何剔除的原始 PDF 全文实词为基准，前三份零丢失、Guidebook 仅差 4 个封面装饰词。
 - **已知限制**：流程图页（catfish p.4 / poultry p.4 / Guidebook p.16、p.29）为矢量方框，文本层仅存散字，箭头走向不可恢复；跨页危害分析表按版面 y 行展开，未按逻辑行合并；poultry p.19 表头含源文档自带的 `Error! Bookmark not defined.`（Word 域错误），按原文保留。
-- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、Directive 7120.1 全文、FSIS-GD-2021-0005/0006 均未收（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
+- **相邻缺口**：FSIS-GD-2020-0012（NPIS 禽模型）、FSIS-GD-2022-0007（野捕鲶鱼模型）、FSIS-GD-2015-0024《HACCP Validation》（2015-11）、FSIS-GD-2021-0005/0006 均未收（**Directive 7120.1 已于 0m 批收录**：Rev.44 历史版全文 + Rev.63 现行版主指令；现行完整 Table 2 仍待官网核对）（Poultry Chilling Requirements 合规指南英文原版已于 0k 批补入）；详见 capability-index 末尾清单。
 
 ## 0j. 2026-11-11 第五批补档：1996 PR/HACCP 最终规则（立法史层）
 
@@ -146,7 +146,7 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **法律效力边界**：本件页脚明示 `Guidance documents lack the force and effect of law`，自述代表 FSIS 当前想法、自发布起可用，曾设 60 天评论期；**不新增法定义务**。A–H 与 SIP 任一组数字都只是 FSIS 认可的举证方式，**不得写成法定限值**；法条锚点始终是 §381.66(b)(3) 书面程序 + 防病原增殖，以及 §381.65(f)(g)、§416.2(g)、§381.94 与 9 CFR 417。
 - **相邻缺口**：官方中文译本、2014 年 79 FR 49634 最终规则 preamble 全文、各企业 SIP 批准程序完整清单（指南只列四条常见示例）未收；详见 capability-index 末尾清单。
 
-## 0i. 2026-11-12 Part 541 补齐存档（eCFR 2026-11-09）
+## 0l. 2026-11-12 第八批补档：Part 541 补齐存档（eCFR 2026-11-09）
 
 - 用户提供 4 页 PDF《9 CFR Part 541 (up to date as of 11-09-2026).pdf》，以 eCFR versioner API 同日期结构化 XML 为主、PDF 逐条对撞，归档为 `sources/9-CFR-Part-541-Marks-Labeling-2026eCFR.md`（6 条全文 + 中文校勘注记）。
 - **补齐的是此前标注的真实缺口**：230 号公告附件与作业指导书附1-4 都引用 541，但包内原无一手条文；`capability-index` 原把「539–541」列为不覆盖，与 `gacc-inspection-workbook` 把 541 当依据引用自相矛盾。本次一并消解。
@@ -154,3 +154,13 @@ FSIS 辖区企业（肉禽蛋品+鲇形目）的 HACCP 强制义务：书面危�
 - **新增鲇形目专属规则**：§541.7(d)(1) 鱼种常用名 basa / swai / tra / sutchi；(d)(2) 仅 Icataluridae 科可用 "catfish"（附1-4 的法源）；(c) 安全处理说明换词与图形；(e) 441/442 保水净重、冷冻鱼须标解冻后 100% 净重并按 NIST HB133 Ch.2 §2.6 抽样。
 - **校勘发现**：eCFR PDF 把 §541.4 正文 (a)(b) 错位并入 §541.7 标题下，已按结构化 XML 归位；eCFR 的 Authority 字段自身重复「21 U.S.C.」；§541.6 条号根本不存在；法规原文另有 Icataluridae / Pangasionodon 两处拼写笔误。详见源末尾校勘注记。
 - 能力卡同步：`labeling-412-424-317`（重写的鲶鱼节 + 541 法定依据段）、`gacc-inspection-workbook`（附1-4 法源锚点）。现为 33 份 sources / 19 张 capabilities。
+
+## 0m. 2026-11-12 第九批补档：FSIS Directive 7120.1 双版本（配料准用）
+
+- 用户提供 126 页 / 2.0 MB PDF《directive 7120.1.pdf》，经文本层全文提取为 `sources/FSIS-Directive-7120.1-Rev44-2017-Safe-Suitable-Ingredients.md`（1,692 行 / 254 KB，保留页标记与 Table 1–4 全部文本）。
+- **补档时发现版本陷阱**：该件为 **Rev.44（2017-12-27）**，而 FSIS 指令门户现行版是 **Rev.63（Issue Date 2026-11-10，取消 Rev.62 / 2026-08-20）**，相差 19 个修订次、近 9 年。故同时抓取现行版门户网页正文归档为 `sources/FSIS-Directive-7120.1-Rev63-2026-Current-Portal-Text.md`，并按「历史版存档 + 现行版指向」双重处理：凡对外合规判断、迎检举证、配方准用确认，一律以现行版 Table 2 为准。
+- **结构沿革**：Rev.44 是 126 页单册（Table 1 更新摘要 + Table 2 准用表 p.4–106 + Table 3 OLR p.107 起 + Table 4 OFLR）；Rev.63 主指令只留更新摘要，完整清单拆为 `7120.1_table_2.pdf` 与 `7120.1-olr-oflr-tables.pdf` 两个独立 PDF，标签要求列编码由数字 (1)–(6) 改为大写字母 A–F（定义不变），并明示本指令及附属文件**不取代 9 CFR 319 / 381 Subpart P 等法规**。
+- **鲇形目最实用部分**：Rev.44 共 19 处 "Fish of the order Siluriformes" 专属条目，其中 Moisture Retention 段（p.96–100）列**十种磷酸盐保水混合物**，统一用法为注射/喷淋/浸渍/滚揉以保水，依据集中在 21 CFR 182.1810 / 182.6760 / 182.1033 / 182.1087 / 182.3013 / 182.6789 / 184.1625，标签一律要求**按主次降序 + 子清单、磷酸盐可统称 sodium phosphate**。该条与中国侧附1-4「Contains 10% added solution…」描述性声明、美国侧 §541.7(e) 解冻后 100% 净重构成同一产品的三条并行要求，已写入能力卡 §5.3。
+- **边界核实**：7120.1 只支撑化学危害（安全性/适用性）、不能证明生物危害控制效果，与包内 GD-2015-0011（p.5/p.27：NOL 与 7120.1 不含功效数据与全部 COP）、GD-2022-0006 鲶鱼模型脚注 18、GD-2020-0013 禽模型、5000.6 Rev.2 四处表述一致，无一手表源的时代结束。
+- **已知缺口**：现行版两个完整清单 PDF 于 2026-11-12 被 FSIS CDN（Akamai，errors.edgesuite.net）返回 403，未能归档；Rev.44 的 19 处鲇形目条目在 Rev.63 是否沿用、限量有无变化**未核实**，已在能力卡与源 frontmatter 标注，引用前须回官网核对。
+- 能力卡 `capabilities/ingredients-7120.1.md`（十节：版本警钟 / 文件性质 / 三层结构 / 六列读法 / 鲇形目专属清单 / 四类 Reference / 只支撑化学危害 / 十条易错点 / 企业自检顺序 / 审计信息）。索引同步：SKILL.md、capability-index（未收清单移除、计数 35/20）、overview、labeling-412-424-317、haccp-generic-models。现为 35 份 sources / 20 张 capabilities。
